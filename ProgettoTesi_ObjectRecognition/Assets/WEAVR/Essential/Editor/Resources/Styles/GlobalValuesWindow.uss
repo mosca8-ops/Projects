@@ -1,0 +1,77 @@
+﻿#banner{
+    flex-grow: 0;
+    flex-shrink: 1;
+    height: 50px;
+    padding: 6px 0px;
+}
+
+#banner > .unity-label {
+    font-size: 16px;
+    padding-left: 4px;
+}
+
+#container {
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin: 4px;
+    border-color: #3f7093;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+#container #no-variables-label {
+    flex-grow: 1;
+    margin: 40px;
+    align-self: stretch;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.20);
+    -unity-text-align: middle-center;
+}
+
+.variable {
+    flex-direction: row;
+    margin: 2px;
+    border-radius: 4px;
+    --highlight-color: rgba(255, 216, 0, 0.65);
+    --change-duration: 1;
+    background-color: rgba(0, 0, 0, 0.1);
+    align-items: stretch;
+    padding: 4px 0px;
+}
+
+    .variable #var-type {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        padding-left: 4px;
+        font-size: 10px;
+        align-self: center;
+        border-radius: 4px 0px 0px 4px;
+        width: 40px;
+        background-color: #3f7093;
+        color: #ffffff;
+        -unity-text-align: middle-center;
+    }
+
+    .variable #highlight-area {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 10px;
+        border-radius: 4px;
+    }
+
+    .variable .unity-base-field {
+        flex-grow: 1;
+    }
+
+    .variable .undefined-label {
+        color: #ff0000;
+    }
+
+    .variable .unity-base-field__label {
+        padding-left: 40px;
+        align-self: stretch;
+    }

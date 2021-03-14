@@ -1,0 +1,3725 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9064343113341642590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cd241df1f66f774e8de290006381aac, type: 3}
+  m_Name: 'TTS: Ruotare il telefono sul retro in modo da avere accesso allo sportello
+    posteriore'
+  m_EditorClassIdentifier: 
+  m_guid: 1914eef1-4ebc-4c1e-ace6-266cba093da4
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: -1
+  m_variant: 0
+  separator: 0
+  m_speech:
+    m_key: 
+    m_defaultValue:
+      voiceName: Giorgio
+      text: Ruotare il telefono sul retro in modo da avere accesso allo sportello
+        posteriore
+      handler: AmazonTTS
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - voiceName: Giorgio
+        text: Ruotare il telefono sul retro in modo da avere accesso allo sportello
+          posteriore
+        handler: AmazonTTS
+  m_audioClip:
+    m_key: 
+    m_defaultValue: {fileID: 0}
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - {fileID: 8300000, guid: 66d7c28062da13e49af183b355fabd62, type: 3}
+  m_volume: 1
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_point:
+    enabled: 0
+    value:
+      m_variableName: 
+      m_isVar: 0
+      m_value: {x: 0, y: 0, z: 0}
+  m_pitch:
+    enabled: 0
+    value:
+      m_animate: 0
+      m_overrideDuration: 0
+      m_overrideCurve: 0
+      m_reversible: 0
+      m_target: 0
+      m_duration: 0
+      m_curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  m_distance:
+    enabled: 0
+    value:
+      m_animate: 0
+      m_overrideDuration: 0
+      m_overrideCurve: 0
+      m_reversible: 0
+      m_target: 0
+      m_duration: 0
+      m_curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  m_loop: 0
+  m_debugText: Ruotare il telefono sul retro in modo da avere accesso allo sportello
+    posteriore
+--- !u!114 &-8916114298773004208
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ca10a3aa04fd4147a13bf257f46d218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_reference: {fileID: 0}
+  m_scenePath: Background/LeftArrow
+  m_typename: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  m_uniqueId: 5-699639698-1414245136-865801407
+  m_targets:
+  - {fileID: -7763959596378116807}
+--- !u!114 &-8908124644800227834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c954baa8fac45b4ca682cb341c34c35, type: 3}
+  m_Name: Wait 1 seconds
+  m_EditorClassIdentifier: 
+  m_guid: 54c77cd9-3955-48d3-990f-1e317b57877e
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_waitTime:
+    m_variableName: 
+    m_isVar: 0
+    m_value: 1
+--- !u!114 &-8845742393605422431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd9530f451d3b5846b049ab75319e85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text:
+    m_key: a
+    m_defaultValue: Procedura sostituzione batteria Samsung Galaxy S2
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - Procedura sostituzione batteria Samsung Galaxy S2
+--- !u!114 &-8825524181354062887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b4671f5420d2945896b4cc67674b26, type: 3}
+  m_Name: '[arbuttonreal_active] = False'
+  m_EditorClassIdentifier: 
+  m_guid: b0eb8738-8726-4baa-be94-60f6ea5aaf8e
+  m_procedure: {fileID: 11400000}
+  m_variant: 0
+  m_canCacheValue: 1
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_children:
+  - {fileID: -4139318134246989641}
+--- !u!114 &-8459250000116876858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4660f39084dc02145bf1b9dc89e5c83a, type: 3}
+  m_Name: 'Enable Fronte '
+  m_EditorClassIdentifier: 
+  m_guid: 155f83d9-d839-449c-9380-44df6f1415c8
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_revertOnExit: 1
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_show:
+    m_animate: 0
+    m_overrideDuration: 0
+    m_overrideCurve: 0
+    m_reversible: 0
+    m_target: 1
+    m_duration: 0
+    m_curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_floatValue: 0
+  m_isGlobal: 1
+--- !u!114 &-8354713711174585901
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f60ea9dde1e49ed4a9bb783710a4b9ec, type: 3}
+  m_Name: OperationsSupportConfig
+  m_EditorClassIdentifier: 
+  m_shortName: OpS
+  m_template: Operations Support
+  m_canSkipSteps: 1
+  m_templateDescription: 
+  m_defaultExecutionMode: {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8,
+    type: 2}
+  m_hintsReplayExecutionMode: {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8,
+    type: 2}
+  m_executionModes:
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+--- !u!114 &-8226795851398381151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96619b10bfc37cc488070d7bc1ccea73, type: 3}
+  m_Name: LocalTransition
+  m_EditorClassIdentifier: 
+  m_guid: d0ea5aa4-9be2-4fd5-85c9-0ebe928843fe
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionMode: 0
+  m_from: {fileID: 3209744461162150586}
+  m_to: {fileID: 8759839864420872406}
+  m_actions: []
+  m_weight: 1
+--- !u!114 &-8172572790503626841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31d20947c8dfc74babe365eddb2c465, type: 3}
+  m_Name: FlowConditionsContainer
+  m_EditorClassIdentifier: 
+  m_guid: 2f9e499b-6db9-4bde-b0bb-1563947a5bdf
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_flowConditions:
+  - {fileID: -4884738377694276925}
+--- !u!114 &-7894567172167363055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4660f39084dc02145bf1b9dc89e5c83a, type: 3}
+  m_Name: 'Enable Retro_Chiuso '
+  m_EditorClassIdentifier: 
+  m_guid: 71fa431c-756b-44c9-bcdf-cdc3afcfe02e
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_revertOnExit: 1
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_show:
+    m_animate: 0
+    m_overrideDuration: 0
+    m_overrideCurve: 0
+    m_reversible: 0
+    m_target: 1
+    m_duration: 0
+    m_curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_floatValue: 0
+  m_isGlobal: 1
+--- !u!114 &-7763959596378116807
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44968bfa23468140abe2906e0379a3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_target: {fileID: -3772207732736620474}
+  m_fieldPath: m_target.m_value
+--- !u!114 &-7682460795638305382
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ca10a3aa04fd4147a13bf257f46d218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_reference: {fileID: 0}
+  m_scenePath: Background/Retro_Aperto_ConBatt
+  m_typename: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  m_uniqueId: 3-699639698-1414245136-503591835
+  m_targets:
+  - {fileID: -1673015112929975657}
+--- !u!114 &-7628894428858318016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fef6f2aec7788544ac1ab2608cc2efe, type: 3}
+  m_Name: Set CameraAR.support = RimuoviBatteria
+  m_EditorClassIdentifier: 
+  m_guid: 69521f9c-add7-4998-a148-0e9e052058f6
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_target: {fileID: 0}
+  m_property:
+    m_path: '[WebCamDetector, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null].support'
+    m_propertyName: support
+    m_targetTypename: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_propertyTypename: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+      PublicKeyToken=b77a5c561934e089
+  m_value:
+    m_valueType: 3
+    m_boolValue: 0
+    m_intValue: 0
+    m_stringValue: RimuoviBatteria
+    m_floatValue: 0
+    m_animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_gradientValue: 
+    m_vectorValue: {x: 0, y: 0, z: 0, w: 0}
+    m_objectValue: {fileID: 0}
+    m_expObjectValue:
+      exposedName: 
+      defaultValue: {fileID: 0}
+    m_typename: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    m_byteValue: 0
+    m_shortValue: 0
+    m_variable: 
+  m_undoOnExit: 0
+  m_isGlobal: 1
+--- !u!114 &-6685835819159720175
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ca10a3aa04fd4147a13bf257f46d218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_reference: {fileID: 0}
+  m_scenePath: Canvas
+  m_typename: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  m_uniqueId: 13-699639698-1414245136--306624712
+  m_targets:
+  - {fileID: -780647059881301077}
+  - {fileID: 587870273059738323}
+--- !u!114 &-6673788504296240439
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ca10a3aa04fd4147a13bf257f46d218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_reference: {fileID: 0}
+  m_scenePath: Background/Benvenuto
+  m_typename: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  m_uniqueId: 7-699639698-1414245136-1324151595
+  m_targets:
+  - {fileID: 1484735456808979330}
+  - {fileID: -2512301455455133482}
+--- !u!114 &-6447726298471071619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96619b10bfc37cc488070d7bc1ccea73, type: 3}
+  m_Name: LocalTransition
+  m_EditorClassIdentifier: 
+  m_guid: 10c136c6-4d18-4d65-8553-2a98029296bc
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionMode: 0
+  m_from: {fileID: 8818467354521611171}
+  m_to: {fileID: 2512974733185239433}
+  m_actions: []
+  m_weight: 1
+--- !u!114 &-6319623836957550917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fef6f2aec7788544ac1ab2608cc2efe, type: 3}
+  m_Name: Set CameraAR.support = RimuoviCover
+  m_EditorClassIdentifier: 
+  m_guid: b36478db-c6cd-47c4-afba-65af0a613bae
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_target: {fileID: 0}
+  m_property:
+    m_path: '[WebCamDetector, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null].support'
+    m_propertyName: support
+    m_targetTypename: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_propertyTypename: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+      PublicKeyToken=b77a5c561934e089
+  m_value:
+    m_valueType: 3
+    m_boolValue: 0
+    m_intValue: 0
+    m_stringValue: RimuoviCover
+    m_floatValue: 0
+    m_animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_gradientValue: 
+    m_vectorValue: {x: 0, y: 0, z: 0, w: 0}
+    m_objectValue: {fileID: 0}
+    m_expObjectValue:
+      exposedName: 
+      defaultValue: {fileID: 0}
+    m_typename: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    m_byteValue: 0
+    m_shortValue: 0
+    m_variable: 
+  m_undoOnExit: 0
+  m_isGlobal: 1
+--- !u!114 &-6068620098048075921
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ca10a3aa04fd4147a13bf257f46d218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_reference: {fileID: 0}
+  m_scenePath: Background/Retro_Chiuso
+  m_typename: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  m_uniqueId: 1-699639698-1414245136--1058136617
+  m_targets:
+  - {fileID: -370240502480550545}
+--- !u!114 &-5586080854355074776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd9530f451d3b5846b049ab75319e85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - 
+--- !u!114 &-5526645082776026842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1278b1d4242402b42a42ed561d47d179, type: 3}
+  m_Name: FlowCondition
+  m_EditorClassIdentifier: 
+  m_guid: 6de299e9-2974-4de8-983c-8aecfe403f3a
+  m_procedure: {fileID: 11400000}
+  m_variant: 0
+  m_canCacheValue: 1
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_transition: {fileID: 0}
+  m_condition: {fileID: 0}
+--- !u!114 &-4998471996000882748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96619b10bfc37cc488070d7bc1ccea73, type: 3}
+  m_Name: LocalTransition
+  m_EditorClassIdentifier: 
+  m_guid: 7658a981-66b6-472e-a6c8-d178d66aa85e
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionMode: 0
+  m_from: {fileID: 8759839864420872406}
+  m_to: {fileID: 3209744461162150586}
+  m_actions: []
+  m_weight: 1
+--- !u!114 &-4938937257839965004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44968bfa23468140abe2906e0379a3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_target: {fileID: 224556714030164669}
+  m_fieldPath: m_target
+--- !u!114 &-4934780107356789956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1278b1d4242402b42a42ed561d47d179, type: 3}
+  m_Name: FlowCondition
+  m_EditorClassIdentifier: 
+  m_guid: eb764961-9644-44d0-af7b-ef729038dd95
+  m_procedure: {fileID: 11400000}
+  m_variant: 0
+  m_canCacheValue: 1
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_transition: {fileID: -6447726298471071619}
+  m_condition: {fileID: 0}
+--- !u!114 &-4908181692502962600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aceb412278444124c863a5e43b27b97a, type: 3}
+  m_Name: WaitAsyncAction
+  m_EditorClassIdentifier: 
+  m_guid: e1a9babe-dc8f-4dc8-a108-99e7925d67e5
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_timeout: 30
+  m_onTimeout: 1
+--- !u!114 &-4884738377694276925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1278b1d4242402b42a42ed561d47d179, type: 3}
+  m_Name: Continue
+  m_EditorClassIdentifier: 
+  m_guid: 8e38b2aa-a347-44de-93c7-04211a335461
+  m_procedure: {fileID: 11400000}
+  m_variant: 0
+  m_canCacheValue: 1
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_transition: {fileID: 7121348646071162743}
+  m_condition: {fileID: 0}
+--- !u!114 &-4682279234450622420
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44968bfa23468140abe2906e0379a3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_target: {fileID: -7628894428858318016}
+  m_fieldPath: m_target
+--- !u!114 &-4576067914501823568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32f4a10ccd04714479e9ab16c22af4aa, type: 3}
+  m_Name: '[arbuttonreal_int] = False'
+  m_EditorClassIdentifier: 
+  m_guid: 6efb9612-985b-4118-b1b4-a61dae4478b0
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_undoOnExit: 0
+  m_variableName: arbuttonreal_int
+  m_valueType: 1
+  m_boolValue: 0
+  m_intValue: 0
+  m_floatValue: 0
+  m_stringValue: 
+  m_colorValue: {r: 0, g: 0, b: 0, a: 0}
+  m_vector3Value: {x: 0, y: 0, z: 0}
+  m_objectValue: {fileID: 0}
+  m_otherVariable: 
+--- !u!114 &-4434564386545281244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31d20947c8dfc74babe365eddb2c465, type: 3}
+  m_Name: FlowConditionsContainer
+  m_EditorClassIdentifier: 
+  m_guid: f5c3562b-0eb4-447b-a090-8fad646f785f
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_flowConditions:
+  - {fileID: -718160216583655188}
+  - {fileID: -1783166526295027038}
+--- !u!114 &-4210837264154400216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b4671f5420d2945896b4cc67674b26, type: 3}
+  m_Name: '[2 Conditions]'
+  m_EditorClassIdentifier: 
+  m_guid: 69cda879-681f-4602-82f7-6a0aff12c6c0
+  m_procedure: {fileID: 11400000}
+  m_variant: 0
+  m_canCacheValue: 1
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_children:
+  - {fileID: 6335027811501217029}
+  - {fileID: 7198196389279803736}
+--- !u!114 &-4139318134246989641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11885c1f53c2f5c4bacb906ca8971f9a, type: 3}
+  m_Name: '[arbuttonreal_active] = False'
+  m_EditorClassIdentifier: 
+  m_guid: 035bc884-cb3a-4719-b9e9-79cc4ad44cca
+  m_procedure: {fileID: 11400000}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_variableName: arbuttonreal_active
+  m_valueType: 1
+  m_exists: 0
+  m_operator:
+    m_operator: 0
+  m_boolValue: 0
+  m_intValue: 0
+  m_floatValue: 0
+  m_stringValue: 
+  m_colorValue: {r: 0, g: 0, b: 0, a: 0}
+  m_vector3Value: {x: 0, y: 0, z: 0}
+  m_objectValue: {fileID: 0}
+  m_caseSensitive: 1
+  m_otherVariable: 
+--- !u!114 &-3978305683712898207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11885c1f53c2f5c4bacb906ca8971f9a, type: 3}
+  m_Name: '[arbuttonreal_value] = False'
+  m_EditorClassIdentifier: 
+  m_guid: 1d337f80-69f1-4d43-bef4-1eca05467f15
+  m_procedure: {fileID: 11400000}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_variableName: arbuttonreal_value
+  m_valueType: 1
+  m_exists: 0
+  m_operator:
+    m_operator: 0
+  m_boolValue: 0
+  m_intValue: 0
+  m_floatValue: 0
+  m_stringValue: 
+  m_colorValue: {r: 0, g: 0, b: 0, a: 0}
+  m_vector3Value: {x: 0, y: 0, z: 0}
+  m_objectValue: {fileID: 0}
+  m_caseSensitive: 1
+  m_otherVariable: 
+--- !u!114 &-3951989216753580447
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 823832b76952e114e80849a212d057be, type: 3}
+  m_Name: BaseGraph
+  m_EditorClassIdentifier: 
+  m_guid: 78d29e70-35c4-4f1e-a602-d4c7ceda85fa
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 379, y: 179.5}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_referencesTable: {fileID: -832934466217887069}
+  m_nodes:
+  - {fileID: 8818467354521611171}
+  - {fileID: 2512974733185239433}
+  - {fileID: 3386289307860755810}
+  - {fileID: 3209744461162150586}
+  - {fileID: 8759839864420872406}
+  - {fileID: 2955003502142315045}
+  m_steps: []
+  m_transitions:
+  - {fileID: -6447726298471071619}
+  - {fileID: -1832509401640564011}
+  - {fileID: -8226795851398381151}
+  - {fileID: -4998471996000882748}
+  - {fileID: 750546564529005938}
+  - {fileID: 7121348646071162743}
+  m_startingNodes:
+  - {fileID: 2955003502142315045}
+  m_flowStartNodes:
+  - {fileID: 3209744461162150586}
+  m_debugStartNodes: []
+--- !u!114 &-3869286226982446878
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44968bfa23468140abe2906e0379a3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_target: {fileID: -2447826912954949038}
+  m_fieldPath: m_target.m_value
+--- !u!114 &-3772207732736620474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4660f39084dc02145bf1b9dc89e5c83a, type: 3}
+  m_Name: 'Enable LeftArrow '
+  m_EditorClassIdentifier: 
+  m_guid: 7e0988bb-9942-4b08-bdda-6e127faf831e
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_revertOnExit: 1
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_show:
+    m_animate: 0
+    m_overrideDuration: 0
+    m_overrideCurve: 0
+    m_reversible: 0
+    m_target: 1
+    m_duration: 0
+    m_curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_floatValue: 0
+  m_isGlobal: 1
+--- !u!114 &-3396072331787722960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1278b1d4242402b42a42ed561d47d179, type: 3}
+  m_Name: '[2 Conditions]'
+  m_EditorClassIdentifier: 
+  m_guid: 09a9ae5b-2ff7-4f0b-9c6e-82a6de95238f
+  m_procedure: {fileID: 11400000}
+  m_variant: 0
+  m_canCacheValue: 1
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_transition: {fileID: -8226795851398381151}
+  m_condition: {fileID: -4210837264154400216}
+--- !u!114 &-2593588955152198705
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ca10a3aa04fd4147a13bf257f46d218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_reference: {fileID: 0}
+  m_scenePath: Background/RotateArrow
+  m_typename: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  m_uniqueId: 4-699639698-1414245136--346457071
+  m_targets:
+  - {fileID: 3615096213520976387}
+--- !u!114 &-2512301455455133482
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44968bfa23468140abe2906e0379a3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_target: {fileID: 1867662351466073275}
+  m_fieldPath: m_target.m_value
+--- !u!114 &-2447826912954949038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4660f39084dc02145bf1b9dc89e5c83a, type: 3}
+  m_Name: 'Disable UpArrow '
+  m_EditorClassIdentifier: 
+  m_guid: 2d5a3161-619c-4440-9f39-58940474fd3a
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_revertOnExit: 1
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_show:
+    m_animate: 1
+    m_overrideDuration: 0
+    m_overrideCurve: 0
+    m_reversible: 1
+    m_target: 0
+    m_duration: 0
+    m_curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.1
+        outSlope: 0.1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 10
+        value: 1
+        inSlope: 0.1
+        outSlope: 0.1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_floatValue: 0
+  m_isGlobal: 1
+--- !u!114 &-2401579409726153720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9e53d8a15d71e84cb1a44879beb811a, type: 3}
+  m_Name: '[] = UpArrow.[ ? ]'
+  m_EditorClassIdentifier: 
+  m_guid: 830d915c-73d6-42ca-beda-27d33fc76b04
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_undoOnExit: 0
+  m_setVariable: 
+  m_ofType: 0
+  m_fromTarget: {fileID: 0}
+  m_property:
+    m_path: 
+    m_propertyName: 
+    m_targetTypename: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_propertyTypename: 
+--- !u!114 &-2389243826034938295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd9530f451d3b5846b049ab75319e85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - 
+--- !u!114 &-2307780409991670200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44968bfa23468140abe2906e0379a3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_target: {fileID: -8459250000116876858}
+  m_fieldPath: m_target.m_value
+--- !u!114 &-2264791657947219304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c954baa8fac45b4ca682cb341c34c35, type: 3}
+  m_Name: Wait 1 seconds
+  m_EditorClassIdentifier: 
+  m_guid: b0317f3a-bda3-4cea-be54-abec592db509
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_waitTime:
+    m_variableName: 
+    m_isVar: 0
+    m_value: 1
+--- !u!114 &-1832509401640564011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96619b10bfc37cc488070d7bc1ccea73, type: 3}
+  m_Name: LocalTransition
+  m_EditorClassIdentifier: 
+  m_guid: ca1efdf5-b7b5-4f0a-8b21-fed4369a09a9
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionMode: 0
+  m_from: {fileID: 3386289307860755810}
+  m_to: {fileID: 8818467354521611171}
+  m_actions: []
+  m_weight: 1
+--- !u!114 &-1783166526295027038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1278b1d4242402b42a42ed561d47d179, type: 3}
+  m_Name: '[arbuttonreal_value] = False'
+  m_EditorClassIdentifier: 
+  m_guid: 994a6a39-5d4b-40f4-8951-f658038bab3e
+  m_procedure: {fileID: 11400000}
+  m_variant: 0
+  m_canCacheValue: 1
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_transition: {fileID: 750546564529005938}
+  m_condition: {fileID: 8180424638802960870}
+--- !u!114 &-1673015112929975657
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44968bfa23468140abe2906e0379a3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_target: {fileID: 3015146761013188379}
+  m_fieldPath: m_target.m_value
+--- !u!114 &-1537231770850218631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32f4a10ccd04714479e9ab16c22af4aa, type: 3}
+  m_Name: '[arbuttonreal_active] = True'
+  m_EditorClassIdentifier: 
+  m_guid: 7cf5b792-9256-48c2-b5e8-c1f1b3387fbe
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_undoOnExit: 0
+  m_variableName: arbuttonreal_active
+  m_valueType: 1
+  m_boolValue: 1
+  m_intValue: 0
+  m_floatValue: 0
+  m_stringValue: 
+  m_colorValue: {r: 0, g: 0, b: 0, a: 0}
+  m_vector3Value: {x: 0, y: 0, z: 0}
+  m_objectValue: {fileID: 0}
+  m_otherVariable: 
+--- !u!114 &-832934466217887069
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a87d03a4d699008459b066ad26d185f9, type: 3}
+  m_Name: ReferenceTable
+  m_EditorClassIdentifier: 
+  m_guid: 2faf18b4-9c33-47b1-b0b7-7fb122173474
+  m_procedure: {fileID: 11400000}
+  m_references:
+  - {fileID: 7412167208450236568}
+  - {fileID: -6068620098048075921}
+  - {fileID: -8916114298773004208}
+  - {fileID: -7682460795638305382}
+  - {fileID: 6583081317048732531}
+  - {fileID: 987431090666213128}
+  - {fileID: -2593588955152198705}
+  - {fileID: -6685835819159720175}
+  - {fileID: -6673788504296240439}
+  m_sceneData:
+    m_sceneName: PhoneBatteryReplace
+    m_scenePath: Assets/Scenes/PhoneBatteryReplace.unity
+    m_sceneGuid: 319baa1f3be29274bb1c04c9dc5044a0
+  m_prevReferences:
+  - '{"scenePath":"CameraAR","typeName":"UnityEngine.GameObject, UnityEngine.CoreModule,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","uniqueId":"10-699639698-1414245136-1208362248","targets":["{\"type\":0,\"data\":\"b36478db-c6cd-47c4-afba-65af0a613bae|m_target\"}","{\"type\":0,\"data\":\"69521f9c-add7-4998-a148-0e9e052058f6|m_target\"}","{\"type\":0,\"data\":\"3484a0b0-0149-4b93-aeb8-f6b984100bc7|m_target\"}","{\"type\":0,\"data\":\"3d72a944-fc53-4887-b9e5-663ae082ff21|m_target.m_value\"}","{\"type\":0,\"data\":\"43cd5079-d92b-480a-ac92-101f0c673261|m_target.m_value\"}","{\"type\":0,\"data\":\"0a03b365-50d5-424c-95a7-3355704feb71|m_target\"}"]}'
+  - '{"scenePath":"Background/Retro_Chiuso","typeName":"UnityEngine.GameObject, UnityEngine.CoreModule,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","uniqueId":"1-699639698-1414245136--1058136617","targets":["{\"type\":0,\"data\":\"71fa431c-756b-44c9-bcdf-cdc3afcfe02e|m_target.m_value\"}"]}'
+  - '{"scenePath":"Background/LeftArrow","typeName":"UnityEngine.GameObject, UnityEngine.CoreModule,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","uniqueId":"5-699639698-1414245136-865801407","targets":["{\"type\":0,\"data\":\"7e0988bb-9942-4b08-bdda-6e127faf831e|m_target.m_value\"}"]}'
+  - '{"scenePath":"Background/Retro_Aperto_ConBatt","typeName":"UnityEngine.GameObject,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","uniqueId":"3-699639698-1414245136-503591835","targets":["{\"type\":0,\"data\":\"6af87fa8-2980-419f-bc96-11fda1b20eef|m_target.m_value\"}"]}'
+  - '{"scenePath":"Background/UpArrow","typeName":"UnityEngine.GameObject, UnityEngine.CoreModule,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","uniqueId":"6-699639698-1414245136-21020029","targets":["{\"type\":0,\"data\":\"10d05f96-e69a-463b-a1a2-a9e3c20752bf|m_target.m_value\"}","{\"type\":0,\"data\":\"2d5a3161-619c-4440-9f39-58940474fd3a|m_target.m_value\"}"]}'
+  - '{"scenePath":"Background/Fronte","typeName":"UnityEngine.GameObject, UnityEngine.CoreModule,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","uniqueId":"2-699639698-1414245136--1606115947","targets":["{\"type\":0,\"data\":\"155f83d9-d839-449c-9380-44df6f1415c8|m_target.m_value\"}"]}'
+  - '{"scenePath":"Background/RotateArrow","typeName":"UnityEngine.GameObject, UnityEngine.CoreModule,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","uniqueId":"4-699639698-1414245136--346457071","targets":["{\"type\":0,\"data\":\"73d0e9b7-b0bd-47de-bb83-c22a0bff5809|m_target.m_value\"}"]}'
+  - '{"scenePath":"Canvas","typeName":"UnityEngine.GameObject, UnityEngine.CoreModule,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","uniqueId":"13-699639698-1414245136--306624712","targets":["{\"type\":0,\"data\":\"b0d43d6e-0713-48d5-8c4d-9d523a29732f|m_target.m_value\"}","{\"type\":0,\"data\":\"7ad5e70f-9e60-405d-a058-1e1c20cbc865|m_target.m_value\"}"]}'
+  - '{"scenePath":"Background/Benvenuto","typeName":"UnityEngine.GameObject, UnityEngine.CoreModule,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","uniqueId":"7-699639698-1414245136-1324151595","targets":["{\"type\":0,\"data\":\"df169435-a79c-46da-8178-471d7c5ebdbe|m_target.m_value\"}","{\"type\":0,\"data\":\"238b6693-c4fa-4879-a2da-cd6864e6cb42|m_target.m_value\"}"]}'
+  m_exposedProperties:
+    keys: []
+    values: []
+--- !u!114 &-780647059881301077
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44968bfa23468140abe2906e0379a3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_target: {fileID: -708952634836482153}
+  m_fieldPath: m_target.m_value
+--- !u!114 &-718160216583655188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1278b1d4242402b42a42ed561d47d179, type: 3}
+  m_Name: '[arbuttonreal_active] = False'
+  m_EditorClassIdentifier: 
+  m_guid: 81ac6d34-8694-475b-aa2d-9123437f68d8
+  m_procedure: {fileID: 11400000}
+  m_variant: 0
+  m_canCacheValue: 1
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_transition: {fileID: -4998471996000882748}
+  m_condition: {fileID: -8825524181354062887}
+--- !u!114 &-708952634836482153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4660f39084dc02145bf1b9dc89e5c83a, type: 3}
+  m_Name: 'Disable Canvas '
+  m_EditorClassIdentifier: 
+  m_guid: b0d43d6e-0713-48d5-8c4d-9d523a29732f
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_revertOnExit: 0
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_show:
+    m_animate: 0
+    m_overrideDuration: 0
+    m_overrideCurve: 0
+    m_reversible: 0
+    m_target: 0
+    m_duration: 0
+    m_curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_floatValue: 0
+  m_isGlobal: 1
+--- !u!114 &-668330814340647654
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44968bfa23468140abe2906e0379a3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_target: {fileID: 5949506434123022645}
+  m_fieldPath: m_target.m_value
+--- !u!114 &-533226101612308760
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44968bfa23468140abe2906e0379a3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_target: {fileID: -419054397337722219}
+  m_fieldPath: m_target
+--- !u!114 &-419054397337722219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fef6f2aec7788544ac1ab2608cc2efe, type: 3}
+  m_Name: Set CameraAR.support = Ruota
+  m_EditorClassIdentifier: 
+  m_guid: 3484a0b0-0149-4b93-aeb8-f6b984100bc7
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_target: {fileID: 0}
+  m_property:
+    m_path: '[WebCamDetector, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null].support'
+    m_propertyName: support
+    m_targetTypename: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_propertyTypename: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+      PublicKeyToken=b77a5c561934e089
+  m_value:
+    m_valueType: 3
+    m_boolValue: 0
+    m_intValue: 0
+    m_stringValue: Ruota
+    m_floatValue: 0
+    m_animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_gradientValue: 
+    m_vectorValue: {x: 0, y: 0, z: 0, w: 0}
+    m_objectValue: {fileID: 0}
+    m_expObjectValue:
+      exposedName: 
+      defaultValue: {fileID: 0}
+    m_typename: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    m_byteValue: 0
+    m_shortValue: 0
+    m_variable: 
+  m_undoOnExit: 0
+  m_isGlobal: 1
+--- !u!114 &-370240502480550545
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44968bfa23468140abe2906e0379a3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_target: {fileID: -7894567172167363055}
+  m_fieldPath: m_target.m_value
+--- !u!114 &-96917674572020417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c954baa8fac45b4ca682cb341c34c35, type: 3}
+  m_Name: Wait 1 seconds
+  m_EditorClassIdentifier: 
+  m_guid: b0499f8a-c9ba-46de-9352-76a37cb67387
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_waitTime:
+    m_variableName: 
+    m_isVar: 0
+    m_value: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0daf0680a3b7aeb4b9ef54fe94e963e6, type: 3}
+  m_Name: Procedure Replace Battery
+  m_EditorClassIdentifier: 
+  m_guid: f6609812-d610-4bd8-9ac5-b830a8715eb7
+  m_procedure: {fileID: 11400000}
+  m_procedureName: Procedure Replace Battery
+  m_description: 
+  m_config: {fileID: -8354713711174585901}
+  m_networkConfig:
+    isNetworkEnabled: 1
+    minNumberOfPlayers:
+      enabled: 0
+      value: 2
+    m_maxNumberOfPlayers:
+      enabled: 0
+      value: 12
+  m_localizationTable: {fileID: 149103083102467116}
+  m_capabilities:
+    usesAR: 0
+    useStepInfo: 1
+    useAnalytics: 1
+  m_media:
+    previewImage: {fileID: 0}
+  m_environment:
+    additiveScenes: []
+  m_lastUpdate: 637425028192010579
+  m_graph: {fileID: -3951989216753580447}
+--- !u!114 &149103083102467116
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98cbc09ce20ffa340880a7e897586c9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_defaultLanguage: {fileID: 11400000, guid: d49b2e0368b28cf4da5d286ac7b7b048, type: 2}
+  m_languages:
+  - {fileID: 11400000, guid: d49b2e0368b28cf4da5d286ac7b7b048, type: 2}
+  m_rows: []
+--- !u!114 &224556714030164669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fef6f2aec7788544ac1ab2608cc2efe, type: 3}
+  m_Name: Set CameraAR.support = Ruota
+  m_EditorClassIdentifier: 
+  m_guid: 0a03b365-50d5-424c-95a7-3355704feb71
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_target: {fileID: 0}
+  m_property:
+    m_path: '[WebCamDetector, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null].support'
+    m_propertyName: support
+    m_targetTypename: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_propertyTypename: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+      PublicKeyToken=b77a5c561934e089
+  m_value:
+    m_valueType: 3
+    m_boolValue: 0
+    m_intValue: 0
+    m_stringValue: Ruota
+    m_floatValue: 0
+    m_animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_gradientValue: 
+    m_vectorValue: {x: 0, y: 0, z: 0, w: 0}
+    m_objectValue: {fileID: 0}
+    m_expObjectValue:
+      exposedName: 
+      defaultValue: {fileID: 0}
+    m_typename: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    m_byteValue: 0
+    m_shortValue: 0
+    m_variable: 
+  m_undoOnExit: 0
+  m_isGlobal: 1
+--- !u!114 &394838470191774982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4660f39084dc02145bf1b9dc89e5c83a, type: 3}
+  m_Name: 'Enable RotateArrow '
+  m_EditorClassIdentifier: 
+  m_guid: 73d0e9b7-b0bd-47de-bb83-c22a0bff5809
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_revertOnExit: 1
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_show:
+    m_animate: 0
+    m_overrideDuration: 0
+    m_overrideCurve: 0
+    m_reversible: 0
+    m_target: 1
+    m_duration: 0
+    m_curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_floatValue: 0
+  m_isGlobal: 1
+--- !u!114 &528902406081925605
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44968bfa23468140abe2906e0379a3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_target: {fileID: 6679173414278315796}
+  m_fieldPath: m_target.m_value
+--- !u!114 &539775188759809517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c954baa8fac45b4ca682cb341c34c35, type: 3}
+  m_Name: Wait 1 seconds
+  m_EditorClassIdentifier: 
+  m_guid: 5f813b4a-1a05-47be-8a13-317c3ddc36cc
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_waitTime:
+    m_variableName: 
+    m_isVar: 0
+    m_value: 1
+--- !u!114 &587870273059738323
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44968bfa23468140abe2906e0379a3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_target: {fileID: 694263973818469418}
+  m_fieldPath: m_target.m_value
+--- !u!114 &675603559720386978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cd241df1f66f774e8de290006381aac, type: 3}
+  m_Name: 'TTS: Per rimuovere la batteria fare leva sulla fessura in basso a sinistra
+    come mostrato dalla freccia'
+  m_EditorClassIdentifier: 
+  m_guid: f40ec70b-c9a4-4088-bf77-6dded0e75948
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: -1
+  m_variant: 0
+  separator: 0
+  m_speech:
+    m_key: 
+    m_defaultValue:
+      voiceName: Giorgio
+      text: Per rimuovere la batteria fare leva sulla fessura in basso a sinistra
+        come mostrato dalla freccia
+      handler: AmazonTTS
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - voiceName: Giorgio
+        text: Per rimuovere la batteria fare leva sulla fessura in basso a sinistra
+          come mostrato dalla freccia
+        handler: AmazonTTS
+  m_audioClip:
+    m_key: 
+    m_defaultValue: {fileID: 0}
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - {fileID: 8300000, guid: bc0b515a857fefe4880c1c9b198d64ee, type: 3}
+  m_volume: 1
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_point:
+    enabled: 0
+    value:
+      m_variableName: 
+      m_isVar: 0
+      m_value: {x: 0, y: 0, z: 0}
+  m_pitch:
+    enabled: 0
+    value:
+      m_animate: 0
+      m_overrideDuration: 0
+      m_overrideCurve: 0
+      m_reversible: 0
+      m_target: 0
+      m_duration: 0
+      m_curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  m_distance:
+    enabled: 0
+    value:
+      m_animate: 0
+      m_overrideDuration: 0
+      m_overrideCurve: 0
+      m_reversible: 0
+      m_target: 0
+      m_duration: 0
+      m_curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  m_loop: 0
+  m_debugText: Per rimuovere la batteria fare leva sulla fessura in basso a sinistra
+    come mostrato dalla freccia
+--- !u!114 &694263973818469418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4660f39084dc02145bf1b9dc89e5c83a, type: 3}
+  m_Name: 'Enable Canvas '
+  m_EditorClassIdentifier: 
+  m_guid: 7ad5e70f-9e60-405d-a058-1e1c20cbc865
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_revertOnExit: 0
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_show:
+    m_animate: 1
+    m_overrideDuration: 0
+    m_overrideCurve: 0
+    m_reversible: 1
+    m_target: 1
+    m_duration: 0
+    m_curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.1
+        outSlope: 0.1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 10
+        value: 1
+        inSlope: 0.1
+        outSlope: 0.1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_floatValue: 0
+  m_isGlobal: 1
+--- !u!114 &750546564529005938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96619b10bfc37cc488070d7bc1ccea73, type: 3}
+  m_Name: LocalTransition
+  m_EditorClassIdentifier: 
+  m_guid: f4124948-29d2-4714-ae56-987724c14532
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionMode: 0
+  m_from: {fileID: 8759839864420872406}
+  m_to: {fileID: 3209744461162150586}
+  m_actions: []
+  m_weight: 1
+--- !u!114 &987431090666213128
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ca10a3aa04fd4147a13bf257f46d218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_reference: {fileID: 0}
+  m_scenePath: Background/Fronte
+  m_typename: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  m_uniqueId: 2-699639698-1414245136--1606115947
+  m_targets:
+  - {fileID: -2307780409991670200}
+--- !u!114 &1172838254198888222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cd241df1f66f774e8de290006381aac, type: 3}
+  m_Name: 'TTS: Benvenuto nella procedura di sostituzione della batteria di Samsung
+    Galaxy S2'
+  m_EditorClassIdentifier: 
+  m_guid: 8aeb90c5-66a3-43f5-9045-c99e1b6faead
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: -1
+  m_variant: 0
+  separator: 0
+  m_speech:
+    m_key: 
+    m_defaultValue:
+      voiceName: Giorgio
+      text: Benvenuto nella procedura di sostituzione della batteria di Samsung Galaxy
+        S2
+      handler: AmazonTTS
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - voiceName: Giorgio
+        text: Benvenuto nella procedura di sostituzione della batteria di Samsung
+          Galaxy S2
+        handler: AmazonTTS
+  m_audioClip:
+    m_key: 
+    m_defaultValue: {fileID: 0}
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - {fileID: 8300000, guid: 93f858f07dde43349b251f4abbd44187, type: 3}
+  m_volume: 1
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_point:
+    enabled: 0
+    value:
+      m_variableName: 
+      m_isVar: 0
+      m_value: {x: 0, y: 0, z: 0}
+  m_pitch:
+    enabled: 0
+    value:
+      m_animate: 0
+      m_overrideDuration: 0
+      m_overrideCurve: 0
+      m_reversible: 0
+      m_target: 0
+      m_duration: 0
+      m_curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  m_distance:
+    enabled: 0
+    value:
+      m_animate: 0
+      m_overrideDuration: 0
+      m_overrideCurve: 0
+      m_reversible: 0
+      m_target: 0
+      m_duration: 0
+      m_curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  m_loop: 0
+  m_debugText: Benvenuto nella procedura di sostituzione della batteria di Samsung
+    Galaxy S2
+--- !u!114 &1319018980747737096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31d20947c8dfc74babe365eddb2c465, type: 3}
+  m_Name: FlowConditionsContainer
+  m_EditorClassIdentifier: 
+  m_guid: 75592362-9156-475a-96da-da0996af59cb
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_flowConditions:
+  - {fileID: -4934780107356789956}
+--- !u!114 &1484735456808979330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44968bfa23468140abe2906e0379a3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_target: {fileID: 6964144556560378363}
+  m_fieldPath: m_target.m_value
+--- !u!114 &1700134489826521864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32f4a10ccd04714479e9ab16c22af4aa, type: 3}
+  m_Name: '[arbuttonreal_int] = True'
+  m_EditorClassIdentifier: 
+  m_guid: 15517b8b-b495-4a3e-8356-7c555a795503
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_undoOnExit: 0
+  m_variableName: arbuttonreal_int
+  m_valueType: 1
+  m_boolValue: 1
+  m_intValue: 0
+  m_floatValue: 0
+  m_stringValue: 
+  m_colorValue: {r: 0, g: 0, b: 0, a: 0}
+  m_vector3Value: {x: 0, y: 0, z: 0}
+  m_objectValue: {fileID: 0}
+  m_otherVariable: 
+--- !u!114 &1867662351466073275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4660f39084dc02145bf1b9dc89e5c83a, type: 3}
+  m_Name: 'Disable Benvenuto '
+  m_EditorClassIdentifier: 
+  m_guid: 238b6693-c4fa-4879-a2da-cd6864e6cb42
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_revertOnExit: 0
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_show:
+    m_animate: 0
+    m_overrideDuration: 0
+    m_overrideCurve: 0
+    m_reversible: 0
+    m_target: 0
+    m_duration: 0
+    m_curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_floatValue: 0
+  m_isGlobal: 1
+--- !u!114 &2512974733185239433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19284b4d613157f4198d53527ad89633, type: 3}
+  m_Name: GenericNode
+  m_EditorClassIdentifier: 
+  m_guid: 7acbfbdc-00cc-4b08-bc24-33a3bd7fb805
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: Rimuovere la batteria
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - Rimuovere la batteria
+  m_uiPosition: {x: 3078, y: -254}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_step: {fileID: 0}
+  m_number: 4
+  m_description:
+    m_key: 
+    m_defaultValue: Per rimuovere la batteria fare leva sulla fessura in basso a
+      sinistra
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - Per rimuovere la batteria fare leva sulla fessura in basso a sinistra
+  m_isMandatory: 1
+  m_hint: {fileID: -5586080854355074776}
+  m_precheck: 0
+  m_flowElements:
+  - {fileID: -7628894428858318016}
+  - {fileID: 675603559720386978}
+  - {fileID: 3015146761013188379}
+  - {fileID: -96917674572020417}
+  - {fileID: 6679173414278315796}
+  - {fileID: -4908181692502962600}
+  - {fileID: -2401579409726153720}
+  - {fileID: 4421078729061709853}
+--- !u!114 &2955003502142315045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19284b4d613157f4198d53527ad89633, type: 3}
+  m_Name: GenericNode
+  m_EditorClassIdentifier: 
+  m_guid: 8c5b6807-b9f0-42c8-9211-2a88351a0620
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: PhoneBatteryReplace
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - PhoneBatteryReplace
+  m_uiPosition: {x: 1707, y: -271}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_step: {fileID: 0}
+  m_number: 1
+  m_description:
+    m_key: a
+    m_defaultValue: Benvenuto
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - Benvenuto
+  m_isMandatory: 1
+  m_hint: {fileID: -8845742393605422431}
+  m_precheck: 0
+  m_flowElements:
+  - {fileID: 539775188759809517}
+  - {fileID: -1537231770850218631}
+  - {fileID: -4576067914501823568}
+  - {fileID: 1172838254198888222}
+  - {fileID: 6964144556560378363}
+  - {fileID: 224556714030164669}
+  - {fileID: -8172572790503626841}
+  - {fileID: 1867662351466073275}
+--- !u!114 &3015146761013188379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4660f39084dc02145bf1b9dc89e5c83a, type: 3}
+  m_Name: 'Enable Retro_Aperto_ConBatt '
+  m_EditorClassIdentifier: 
+  m_guid: 6af87fa8-2980-419f-bc96-11fda1b20eef
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_revertOnExit: 1
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_show:
+    m_animate: 0
+    m_overrideDuration: 0
+    m_overrideCurve: 0
+    m_reversible: 0
+    m_target: 1
+    m_duration: 0
+    m_curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_floatValue: 0
+  m_isGlobal: 1
+--- !u!114 &3209744461162150586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19284b4d613157f4198d53527ad89633, type: 3}
+  m_Name: GenericNode
+  m_EditorClassIdentifier: 
+  m_guid: a0576650-f646-4b3a-b853-d6231e2687d5
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: ARVision
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - ARVision
+  m_uiPosition: {x: 2052, y: 234}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_step: {fileID: 0}
+  m_number: 5
+  m_description:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - 
+  m_isMandatory: 0
+  m_hint: {fileID: 7107530494680127369}
+  m_precheck: 0
+  m_flowElements:
+  - {fileID: 5923276879656838581}
+  - {fileID: -708952634836482153}
+  - {fileID: 3243858303498750443}
+--- !u!114 &3243858303498750443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31d20947c8dfc74babe365eddb2c465, type: 3}
+  m_Name: FlowConditionsContainer
+  m_EditorClassIdentifier: 
+  m_guid: 540cbc02-e605-477a-89b5-44c97ec915ec
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_flowConditions:
+  - {fileID: -3396072331787722960}
+--- !u!114 &3386289307860755810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19284b4d613157f4198d53527ad89633, type: 3}
+  m_Name: GenericNode
+  m_EditorClassIdentifier: 
+  m_guid: b0c766ec-9799-4264-8764-fb37618ab65e
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: Ruotare il telefono
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - Ruotare il telefono
+  m_uiPosition: {x: 2126, y: -242}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_step: {fileID: 0}
+  m_number: 2
+  m_description:
+    m_key: b
+    m_defaultValue: Ruotare il telefono sul retro in modo da avere accesso allo sportello
+      posteriore
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - Ruotare il telefono sul retro in modo da avere accesso allo sportello posteriore
+  m_isMandatory: 1
+  m_hint: {fileID: 3520469367680795819}
+  m_precheck: 0
+  m_flowElements:
+  - {fileID: 1700134489826521864}
+  - {fileID: -419054397337722219}
+  - {fileID: -9064343113341642590}
+  - {fileID: -8459250000116876858}
+  - {fileID: -2264791657947219304}
+  - {fileID: 394838470191774982}
+  - {fileID: 6739807139736189837}
+--- !u!114 &3514057654748935408
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44968bfa23468140abe2906e0379a3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_target: {fileID: 5923276879656838581}
+  m_fieldPath: m_target.m_value
+--- !u!114 &3520469367680795819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd9530f451d3b5846b049ab75319e85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text:
+    m_key: b
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - 
+--- !u!114 &3615096213520976387
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44968bfa23468140abe2906e0379a3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_target: {fileID: 394838470191774982}
+  m_fieldPath: m_target.m_value
+--- !u!114 &4282322480840287945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd9530f451d3b5846b049ab75319e85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - 
+--- !u!114 &4421078729061709853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31d20947c8dfc74babe365eddb2c465, type: 3}
+  m_Name: FlowConditionsContainer
+  m_EditorClassIdentifier: 
+  m_guid: 05df3981-4529-4c8d-a5ff-2cf2c9f18064
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_flowConditions:
+  - {fileID: -5526645082776026842}
+--- !u!114 &5923276879656838581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4660f39084dc02145bf1b9dc89e5c83a, type: 3}
+  m_Name: 'Disable CameraAR '
+  m_EditorClassIdentifier: 
+  m_guid: 3d72a944-fc53-4887-b9e5-663ae082ff21
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_revertOnExit: 0
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_show:
+    m_animate: 0
+    m_overrideDuration: 0
+    m_overrideCurve: 0
+    m_reversible: 0
+    m_target: 0
+    m_duration: 0
+    m_curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_floatValue: 0
+  m_isGlobal: 1
+--- !u!114 &5949506434123022645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4660f39084dc02145bf1b9dc89e5c83a, type: 3}
+  m_Name: 'Enable CameraAR '
+  m_EditorClassIdentifier: 
+  m_guid: 43cd5079-d92b-480a-ac92-101f0c673261
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_revertOnExit: 0
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_show:
+    m_animate: 1
+    m_overrideDuration: 0
+    m_overrideCurve: 0
+    m_reversible: 1
+    m_target: 1
+    m_duration: 0
+    m_curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.1
+        outSlope: 0.1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 10
+        value: 1
+        inSlope: 0.1
+        outSlope: 0.1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_floatValue: 0
+  m_isGlobal: 1
+--- !u!114 &6335027811501217029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11885c1f53c2f5c4bacb906ca8971f9a, type: 3}
+  m_Name: '[arbuttonreal_active] = True'
+  m_EditorClassIdentifier: 
+  m_guid: ebe514ff-ec55-46d6-8dd3-7c89109912a3
+  m_procedure: {fileID: 11400000}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_variableName: arbuttonreal_active
+  m_valueType: 1
+  m_exists: 0
+  m_operator:
+    m_operator: 0
+  m_boolValue: 1
+  m_intValue: 0
+  m_floatValue: 0
+  m_stringValue: 
+  m_colorValue: {r: 0, g: 0, b: 0, a: 0}
+  m_vector3Value: {x: 0, y: 0, z: 0}
+  m_objectValue: {fileID: 0}
+  m_caseSensitive: 1
+  m_otherVariable: 
+--- !u!114 &6583081317048732531
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ca10a3aa04fd4147a13bf257f46d218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_reference: {fileID: 0}
+  m_scenePath: Background/UpArrow
+  m_typename: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  m_uniqueId: 6-699639698-1414245136-21020029
+  m_targets:
+  - {fileID: 528902406081925605}
+  - {fileID: -3869286226982446878}
+--- !u!114 &6679173414278315796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4660f39084dc02145bf1b9dc89e5c83a, type: 3}
+  m_Name: 'Enable UpArrow '
+  m_EditorClassIdentifier: 
+  m_guid: 10d05f96-e69a-463b-a1a2-a9e3c20752bf
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_revertOnExit: 1
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_show:
+    m_animate: 0
+    m_overrideDuration: 0
+    m_overrideCurve: 0
+    m_reversible: 0
+    m_target: 1
+    m_duration: 0
+    m_curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_floatValue: 0
+  m_isGlobal: 1
+--- !u!114 &6739807139736189837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c31d20947c8dfc74babe365eddb2c465, type: 3}
+  m_Name: FlowConditionsContainer
+  m_EditorClassIdentifier: 
+  m_guid: 8e8fa783-84f6-4627-a2c9-f662bed0f9af
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_flowConditions:
+  - {fileID: 6952228043321999664}
+--- !u!114 &6952228043321999664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1278b1d4242402b42a42ed561d47d179, type: 3}
+  m_Name: Next Clicked
+  m_EditorClassIdentifier: 
+  m_guid: bee54dc4-8f6f-48d2-8691-1555d51e10ed
+  m_procedure: {fileID: 11400000}
+  m_variant: 0
+  m_canCacheValue: 1
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_transition: {fileID: -1832509401640564011}
+  m_condition: {fileID: 0}
+--- !u!114 &6964144556560378363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4660f39084dc02145bf1b9dc89e5c83a, type: 3}
+  m_Name: 'Enable Benvenuto '
+  m_EditorClassIdentifier: 
+  m_guid: df169435-a79c-46da-8178-471d7c5ebdbe
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: 0
+  m_variant: 0
+  separator: 0
+  m_revertOnExit: 0
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_show:
+    m_animate: 0
+    m_overrideDuration: 0
+    m_overrideCurve: 0
+    m_reversible: 0
+    m_target: 1
+    m_duration: 0
+    m_curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_floatValue: 0
+  m_isGlobal: 1
+--- !u!114 &7107530494680127369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd9530f451d3b5846b049ab75319e85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - 
+--- !u!114 &7121348646071162743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96619b10bfc37cc488070d7bc1ccea73, type: 3}
+  m_Name: LocalTransition
+  m_EditorClassIdentifier: 
+  m_guid: 66b462bb-5496-4521-b1bd-fd1598eb0ef5
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionMode: 0
+  m_from: {fileID: 2955003502142315045}
+  m_to: {fileID: 3386289307860755810}
+  m_actions: []
+  m_weight: 1
+--- !u!114 &7198196389279803736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11885c1f53c2f5c4bacb906ca8971f9a, type: 3}
+  m_Name: '[arbuttonreal_value] = True'
+  m_EditorClassIdentifier: 
+  m_guid: ef13c979-841c-48aa-8774-f93f31a025c1
+  m_procedure: {fileID: 11400000}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_variableName: arbuttonreal_value
+  m_valueType: 1
+  m_exists: 0
+  m_operator:
+    m_operator: 0
+  m_boolValue: 1
+  m_intValue: 0
+  m_floatValue: 0
+  m_stringValue: 
+  m_colorValue: {r: 0, g: 0, b: 0, a: 0}
+  m_vector3Value: {x: 0, y: 0, z: 0}
+  m_objectValue: {fileID: 0}
+  m_caseSensitive: 1
+  m_otherVariable: 
+--- !u!114 &7392252831803877999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cd241df1f66f774e8de290006381aac, type: 3}
+  m_Name: 'TTS: Rimuovere la cover facendo leva sulla fessure in alto a destra come
+    mostrato dalla freccia'
+  m_EditorClassIdentifier: 
+  m_guid: ae31fcb0-9dde-4136-8acc-7411f77f54c5
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: 
+    m_hasInitializerValue: 0
+    m_values:
+      keys: []
+      values: []
+  m_uiPosition: {x: 0, y: 0}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_asyncThread: -1
+  m_variant: 0
+  separator: 0
+  m_speech:
+    m_key: 
+    m_defaultValue:
+      voiceName: Giorgio
+      text: Rimuovere la cover facendo leva sulla fessure in alto a destra come mostrato
+        dalla freccia
+      handler: AmazonTTS
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - voiceName: Giorgio
+        text: Rimuovere la cover facendo leva sulla fessure in alto a destra come
+          mostrato dalla freccia
+        handler: AmazonTTS
+  m_audioClip:
+    m_key: 
+    m_defaultValue: {fileID: 0}
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - {fileID: 8300000, guid: 4ed76045114037a468dcccf6576874e8, type: 3}
+  m_volume: 1
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_point:
+    enabled: 0
+    value:
+      m_variableName: 
+      m_isVar: 0
+      m_value: {x: 0, y: 0, z: 0}
+  m_pitch:
+    enabled: 0
+    value:
+      m_animate: 0
+      m_overrideDuration: 0
+      m_overrideCurve: 0
+      m_reversible: 0
+      m_target: 0
+      m_duration: 0
+      m_curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  m_distance:
+    enabled: 0
+    value:
+      m_animate: 0
+      m_overrideDuration: 0
+      m_overrideCurve: 0
+      m_reversible: 0
+      m_target: 0
+      m_duration: 0
+      m_curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  m_loop: 0
+  m_debugText: Rimuovere la cover facendo leva sulla fessure in alto a destra come
+    mostrato dalla freccia
+--- !u!114 &7412167208450236568
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ca10a3aa04fd4147a13bf257f46d218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_reference: {fileID: 0}
+  m_scenePath: CameraAR
+  m_typename: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  m_uniqueId: 10-699639698-1414245136-1208362248
+  m_targets:
+  - {fileID: 7478512635903996907}
+  - {fileID: -4682279234450622420}
+  - {fileID: -533226101612308760}
+  - {fileID: 3514057654748935408}
+  - {fileID: -668330814340647654}
+  - {fileID: -4938937257839965004}
+--- !u!114 &7478512635903996907
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44968bfa23468140abe2906e0379a3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_target: {fileID: -6319623836957550917}
+  m_fieldPath: m_target
+--- !u!114 &8180424638802960870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b4671f5420d2945896b4cc67674b26, type: 3}
+  m_Name: '[arbuttonreal_value] = False'
+  m_EditorClassIdentifier: 
+  m_guid: d271f503-53bd-4966-8632-0f5ad53b1885
+  m_procedure: {fileID: 11400000}
+  m_variant: 0
+  m_canCacheValue: 1
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_children:
+  - {fileID: -3978305683712898207}
+--- !u!114 &8759839864420872406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19284b4d613157f4198d53527ad89633, type: 3}
+  m_Name: GenericNode
+  m_EditorClassIdentifier: 
+  m_guid: d7e2e459-66bc-4e71-9bf5-41514ba1579f
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: ARVision
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - ARVision
+  m_uiPosition: {x: 2447, y: 228}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_step: {fileID: 0}
+  m_number: 6
+  m_description:
+    m_key: 
+    m_defaultValue: Inquadra il tuo telefono per aumentare la procedura
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - Inquadra il tuo telefono per aumentare la procedura
+  m_isMandatory: 0
+  m_hint: {fileID: 4282322480840287945}
+  m_precheck: 0
+  m_flowElements:
+  - {fileID: 5949506434123022645}
+  - {fileID: 694263973818469418}
+  - {fileID: -2447826912954949038}
+  - {fileID: -4434564386545281244}
+--- !u!114 &8818467354521611171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19284b4d613157f4198d53527ad89633, type: 3}
+  m_Name: GenericNode
+  m_EditorClassIdentifier: 
+  m_guid: 1629add3-5bed-4db9-b1e7-0e0f34bc249f
+  m_procedure: {fileID: 11400000}
+  m_title:
+    m_key: 
+    m_defaultValue: Rimuovere la cover
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - Rimuovere la cover
+  m_uiPosition: {x: 2595, y: -239}
+  m_uiCollapsed: 0
+  m_uiSuperCollapsed: 0
+  m_step: {fileID: 0}
+  m_number: 3
+  m_description:
+    m_key: 
+    m_defaultValue: Rimuovere la cover facendo leva sulla fessure in alto a destra
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - it
+      values:
+      - Rimuovere la cover facendo leva sulla fessure in alto a destra
+  m_isMandatory: 1
+  m_hint: {fileID: -2389243826034938295}
+  m_precheck: 0
+  m_flowElements:
+  - {fileID: -6319623836957550917}
+  - {fileID: 7392252831803877999}
+  - {fileID: -7894567172167363055}
+  - {fileID: -8908124644800227834}
+  - {fileID: -3772207732736620474}
+  - {fileID: 1319018980747737096}

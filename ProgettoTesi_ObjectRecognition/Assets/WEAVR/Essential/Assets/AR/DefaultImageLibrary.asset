@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DefaultImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5420459906865895830
+  m_GuidHigh: 15253896004953730477
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5226342666872869436
+      m_GuidHigh: 10840936198212578235
+    m_SerializedTextureGuid:
+      m_GuidLow: 12134028386267886256
+      m_GuidHigh: 16010201802683726952
+    m_Size: {x: 0.2, y: 0.09622642}
+    m_SpecifySize: 1
+    m_Name: DefaultMarker
+    m_Texture: {fileID: 2800000, guid: 4a00f2b0ba87a864683c48bfb6a92fde, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5224509930701019468
+      m_GuidHigh: 8188170780559197852
+    m_SerializedTextureGuid:
+      m_GuidLow: 2707942801806229192
+      m_GuidHigh: 17143508211097287514
+    m_Size: {x: 0.05, y: 0.05}
+    m_SpecifySize: 1
+    m_Name: Marker_ARCore_ARKit
+    m_Texture: {fileID: 2800000, guid: 85bc7ec88ba125945a3b7246e3f9e9ed, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5608052290797723479
+      m_GuidHigh: 10559665422653849789
+    m_SerializedTextureGuid:
+      m_GuidLow: 12278000928919907781
+      m_GuidHigh: 3930068409528810281
+    m_Size: {x: 0.05, y: 0.05}
+    m_SpecifySize: 1
+    m_Name: Marker_Clean
+    m_Texture: {fileID: 2800000, guid: 102fedc538cbaa6429fbf26465688a36, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4654426681780788224
+      m_GuidHigh: 6621500144723942070
+    m_SerializedTextureGuid:
+      m_GuidLow: 10345933631790970321
+      m_GuidHigh: 8333492863380986200
+    m_Size: {x: 0.05, y: 0.05}
+    m_SpecifySize: 1
+    m_Name: Marker_AREngineering
+    m_Texture: {fileID: 2800000, guid: b0aaf5d123d28f94589913449b83a673, type: 3}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1298px" height="640px" viewBox="0 0 1298 640" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>procedure_BG</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-1">
+            <stop stop-color="#040B2B" offset="0%"></stop>
+            <stop stop-color="#041346" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="card1-copy-4" fill="url(#linearGradient-1)" x="-1" y="0" width="1299" height="640" rx="4"></rect>
+    </g>
+</svg>

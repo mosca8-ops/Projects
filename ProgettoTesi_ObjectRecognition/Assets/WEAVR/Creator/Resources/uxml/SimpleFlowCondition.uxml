@@ -1,0 +1,15 @@
+<UXML xmlns:ui="UnityEngine.UIElements" xmlns:wvr="TXT.WEAVR.Procedure">
+  <ui:VisualElement name="contents" pickingMode="Ignore">
+    <ui:Image name="icon" pickingMode="Ignore"/>
+    <ui:VisualElement name="progress-bar" pickingMode="Ignore"/>
+    <ui:VisualElement name="colored-box" pickingMode="Ignore"/>
+    <ui:VisualElement name="config-container">
+      <ui:Label name="is-global-elem" class="sync-type-elem" pickingMode="Ignore" text="G" />
+      <ui:Label name="is-local-elem" class="sync-type-elem" pickingMode="Ignore" text="L"/>
+      <ui:Label name="negated" text="NOT" />
+    </ui:VisualElement>
+    <ui:Label name="description" pickingMode="Ignore"/>
+    <ui:Image name="state-icon" pickingMode="Ignore"/>
+  </ui:VisualElement>
+  <ui:VisualElement name="flow-outputs" pickingMode="Ignore" class="flow-container output" />
+</UXML>

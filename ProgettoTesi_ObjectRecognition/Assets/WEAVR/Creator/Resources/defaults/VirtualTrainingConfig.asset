@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f60ea9dde1e49ed4a9bb783710a4b9ec, type: 3}
+  m_Name: VirtualTrainingConfig
+  m_EditorClassIdentifier: 
+  m_shortName: VT
+  m_template: Virtual Training
+  m_canSkipSteps: 0
+  m_templateDescription: Virtual Training is aimed to aid the student with the procedure
+    with learn-by-do method
+  m_defaultExecutionMode: {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a,
+    type: 2}
+  m_hintsReplayExecutionMode: {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879,
+    type: 2}
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="119px" height="238px" viewBox="0 0 119 238" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Button/Library_Link</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="43.1050334%" y1="0%" x2="57.4051821%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#35156F" offset="0%"></stop>
+            <stop stop-color="#420872" offset="99.6859164%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Button/Library_Link">
+            <g id="Group-7">
+                <path d="M119,238 C119,209.109827 119,28.7878857 119,0 C53.2781148,0 0,53.2781148 0,119 C0,184.721885 53.2781148,238 119,238 Z" id="Mask" fill="url(#linearGradient-1)"></path>
+                <text id="More-in-Library" font-family="Montserrat-Medium, Montserrat" font-size="18" font-weight="400" fill="#FFFFFF">
+                    <tspan x="32.078" y="145">More in </tspan>
+                    <tspan x="34.76" y="167" font-family="Montserrat-Bold, Montserrat" font-weight="bold">Library</tspan>
+                </text>
+            </g>
+            <g id="icon/library-copy" transform="translate(46.000000, 78.000000)" fill="#FFFFFF">
+                <path d="M11.6183812,9.48148148 L11.6183812,26.1113369 C11.6183812,27.5104583 12.7525932,28.6446703 14.1517146,28.6446703 L29.3925926,28.6446703 L29.3925926,30.3111111 C29.3925926,31.2438587 28.6364513,32 27.7037037,32 L9.68888889,32 C8.75614131,32 8,31.2438587 8,30.3111111 L8,11.1703704 C8,10.2376228 8.75614131,9.48148148 9.68888889,9.48148148 L11.6183812,9.48148148 Z M31.6444444,6.66666667 C32.577192,6.66666667 33.3333333,7.42280798 33.3333333,8.35555556 L33.3333333,25.2444444 C33.3333333,26.177192 32.577192,26.9333333 31.6444444,26.9333333 L14.7555556,26.9333333 C13.822808,26.9333333 13.0666667,26.177192 13.0666667,25.2444444 L13.0666667,8.35555556 C13.0666667,7.42280798 13.822808,6.66666667 14.7555556,6.66666667 L31.6444444,6.66666667 Z M19.8222222,11.6575892 L19.8222222,22.3027071 L28.8296296,16.9801481 L19.8222222,11.6575892 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

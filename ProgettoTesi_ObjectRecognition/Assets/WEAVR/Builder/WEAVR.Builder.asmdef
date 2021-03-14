@@ -1,0 +1,18 @@
+{
+    "name": "WEAVR.Builder",
+    "references": [
+        "GUID:14f39324cd310cf4abbcc3902eeb0f30",
+        "GUID:aec837f2d1edd9342bab5fdbdedc3630"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

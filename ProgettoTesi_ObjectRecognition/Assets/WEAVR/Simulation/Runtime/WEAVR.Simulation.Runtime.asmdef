@@ -1,0 +1,17 @@
+{
+    "name": "WEAVR.Simulation.Runtime",
+    "references": [
+        "GUID:aec837f2d1edd9342bab5fdbdedc3630",
+        "GUID:4a2b688471335ba4fb85c87a1f14f118",
+        "GUID:e58801baf4a33c443afa2546eb64c5b5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,8 @@
+<UXML xmlns:ui="UnityEngine.UIElements" xmlns:wvr="TXT.WEAVR.Procedure">
+  <ui:Label name="title-label" pickingMode="Ignore"/>
+  <ui:Label name="message-label" pickingMode="Ignore"/>
+  <ui:VisualElement name="buttons-container" pickingMode="Ignore">
+    <ui:Button name="ok-button" class="clickable"/>
+    <ui:Button name="cancel-button" class="clickable"/>
+  </ui:VisualElement>
+</UXML>

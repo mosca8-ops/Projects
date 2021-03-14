@@ -1,0 +1,336 @@
+#window {
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 10px;
+}
+
+    #window ScrollView {
+        flex-grow: 1;
+        margin-bottom: 32px;
+    }
+
+        #window ScrollView #ContentView {
+            width: 600px;
+        }
+
+* Label, * TextField, * .unity-text-element {
+    -unity-font: resource("fonts/Roboto-Regular");
+}
+
+.big-label {
+    /*align-self: center;*/
+    font-size: 16;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.centered-label {
+    -unity-text-align: middle-center;
+}
+
+.medium-label {
+    font-size: 14;
+}
+
+.small-label {
+    font-size: 12;
+}
+
+#header {
+    flex-direction: row;
+    background-color: #1a1a1a;
+    margin-bottom: 10px;
+}
+
+#logo {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 110px;
+    height: 110px;
+    --unity-image: resource("images/logo_grayscale");
+}
+
+#title-container {
+    margin-left: 20px;
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+
+    #title-container .big-label {
+        align-self: flex-start;
+        font-size: 32;
+        flex-grow: 1;
+    }
+
+#name-container {
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+#error-label {
+    color: #ff0000;
+    font-size: 11;
+}
+
+/*#title-container .medium-label {
+    -unity-text-align: lower-left;
+    font-size: 12;
+    margin-bottom: -2px;
+}*/
+
+#title-container .small-label {
+    -unity-text-align: lower-left;
+    margin-bottom: -2px;
+}
+
+#procedure-name {
+    border-radius: 8px;
+    font-size: 20;
+    padding-left: 5px;
+    flex-grow: 1;
+}
+
+.horizontal {
+    flex-direction: row;
+}
+
+.path {
+    font-size: 14;
+}
+
+#folderpath {
+    margin-right: 0px;
+}
+
+#filename {
+    /*background-image: none;*/
+    flex-grow: 1;
+}
+
+    #filename.error {
+        color: #ff0000;
+    }
+
+#cancel-button {
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.00);
+    position: absolute;
+    left: 10px;
+    bottom: -4px;
+    font-size: 20px;
+    border-width: 0px;
+    color: rgba(255, 0, 0, 0.6);
+}
+
+    #cancel-button:hover {
+        background-image: none;
+        color: #ff0000;
+    }
+
+        #cancel-button:hover:focus {
+            background-image: none;
+            color: #ff0000;
+        }
+
+    #cancel-button:active {
+        background-image: none;
+        color: #760000;
+    }
+
+        #cancel-button:active:focus {
+            background-image: none;
+            color: #760000;
+        }
+
+#create-button {
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.00);
+    border-width: 0px;
+    position: absolute;
+    right: 10px;
+    bottom: -4px;
+    font-size: 20px;
+    color: rgba(16, 255, 0, 0.40);
+}
+
+    #create-button:hover {
+        background-image: none;
+        color: #01b714;
+    }
+
+        #create-button:hover:focus {
+            background-image: none;
+            color: #01b714;
+        }
+
+    #create-button:active {
+        background-image: none;
+        color: #004307;
+    }
+
+        #create-button:active:focus {
+            background-image: none;
+            color: #004307;
+        }
+
+/*SELECTION BUTTON*/
+
+.selection-button {
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.50);
+    font-size: 24;
+    width: 100px;
+    height: 80px;
+    color: #a2a2a2;
+    margin: 2px;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgba(0, 0, 0, 0.00);
+}
+
+    .selection-button Label {
+        font-size: 10;
+        position: absolute;
+        bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        align-self: center;
+    }
+
+    .selection-button.selected {
+        background-image: none;
+        color: #019db7;
+        border-color: #019db7;
+    }
+
+    .selection-button:hover {
+        background-image: none;
+        color: #019db7;
+        border-color: #019db7;
+    }
+
+        .selection-button:hover:focus {
+            background-image: none;
+            color: #019db7;
+            border-color: #019db7;
+        }
+
+    .selection-button:active {
+        background-image: none;
+        background-color: #000000;
+        color: #006879;
+        border-color: #006879;
+    }
+
+    .selection-button:hover:active {
+        background-image: none;
+        background-color: #000000;
+        color: #006879;
+        border-color: #006879;
+    }
+
+    .selection-button:active:focus {
+        background-image: none;
+        background-color: #000000;
+        color: #006879;
+        border-color: #006879;
+    }
+
+/*TEMPLATES PART*/
+
+#templates-list {
+    flex-direction: row;
+    justify-content: center;
+}
+
+    #templates-list .selection-button {
+        width: 100px;
+        height: 80px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+#template-description {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+/**************************************************/
+
+/*EXECUTION MODES PART*/
+
+#modes-list {
+    flex-direction: row;
+    justify-content: center;
+}
+
+    #modes-list .selection-button {
+        width: 90px;
+        height: 70px;
+    }
+
+/**************************************************/
+
+/*EXECUTION MODES PART*/
+
+#languages-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+    #languages-list .selection-button {
+        font-size: 24;
+        width: 80px;
+        height: 70px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+        #languages-list .selection-button Label {
+            background-color: rgba(0, 0, 0, 0.75);
+            font-size: 10;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-left: -4px;
+            margin-right: -4px;
+            -unity-text-align: middle-center;
+            white-space: normal;
+        }
+
+        #languages-list .selection-button Image {
+        }
+
+/**************************************************/
+
+.container.first {
+    flex: 0.5;
+}
+
+.container {
+    border-width: 2px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 8px;
+    border-color: rgba(26, 26, 26, 0.50);
+    background-color: rgba(56, 56, 56, 0.30);
+}
+
+    .container.first .data-container {
+        border-left-width: 0px;
+    }
+
+.data-container {
+    align-self: stretch;
+    flex: 1 ;
+    border-color: rgba(0, 0, 0, 0.50);
+    border-left-width: 1px;
+}
+
+IMGUIContainer {
+    flex: 1 ;
+}

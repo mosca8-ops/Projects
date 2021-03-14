@@ -1,0 +1,81 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement style="flex-shrink: 10; overflow: hidden;">
+        <Style src="MergeMeshesWindow.uss" />
+        <ui:VisualElement style="background-color: rgb(0, 0, 0); flex-direction: row; padding-bottom: 5px; min-height: 50;">
+            <ui:VisualElement name="weavr-logo" class="logo" />
+            <ui:Label text="Merge Models" name="window-title" class="title-label" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement style="height: 536px; margin-left: 5px; margin-right: 5px; margin-bottom: 5px;">
+        <Style src="MergeMeshesWindow.uss" />
+        <ui:VisualElement name="message-box" class="message-box" style="flex-direction: row;">
+            <ui:VisualElement name="message-icon" />
+            <ui:Label text="Message here" name="message-label" />
+        </ui:VisualElement>
+        <ui:VisualElement name="options-section" class="section">
+            <ui:ScrollView>
+                <uie:ObjectField label="Source" name="source-field" />
+                <ui:TextField picking-mode="Ignore" label="Model Path" text="Assets/Models/Merged/" name="model-path">
+                    <ui:Button text="Show" name="show-folder" />
+                </ui:TextField>
+                <ui:TextField picking-mode="Ignore" label="Model Name" text="Model name here" name="model-name" />
+                <ui:TextField picking-mode="Ignore" label="Pivot Mode" value="filler text" text="filler text" name="pivot-mode">
+                    <uie:ToolbarToggle label="Root" value="false" name="pivot-root" class="pivot-mode-button first" />
+                    <uie:ToolbarToggle label="Center" value="true" name="pivot-center" class="pivot-mode-button" />
+                    <uie:ToolbarToggle label="Adjustable" name="pivot-adjustable" class="pivot-mode-button last" />
+                </ui:TextField>
+                <ui:Toggle label="Make Prefab" name="make-prefab" value="True" />
+                <ui:Toggle label="Swap Original" name="swap-original" value="True" tooltip="Swaps the original object " />
+                <ui:Toggle label="Use Selected" name="use-selected" value="True" />
+                <ui:Toggle label="Merge Materials" name="merge-materials" value="True" />
+                <ui:VisualElement name="materials-options" class="sub-section">
+                    <ui:Label text="Materials Merge Criteria:" class="sub-title" />
+                    <ui:VisualElement class="horizontal wrapping centered">
+                        <ui:Toggle label="Same Properties" name="merge-same-properties" value="true" class="button-toggle" />
+                        <ui:Toggle label="Same Main Texture" value="true" name="merge-same-texture" class="button-toggle" />
+                        <ui:Toggle label="Same Shader" value="true" name="merge-same-shader" class="button-toggle" />
+                        <ui:Toggle label="Similar Name" name="merge-same-name" value="true" class="button-toggle value-toggle">
+                            <ui:TextField picking-mode="Ignore" label="Max  Distance" value="5" text="5" max-length="2" name="same-name-field" />
+                        </ui:Toggle>
+                        <ui:Toggle label="Similar Color" name="merge-same-color" value="true" class="button-toggle value-toggle">
+                            <ui:TextField picking-mode="Ignore" label="Similarity Delta" value="0.01" text="0.01" name="same-color-field" />
+                        </ui:Toggle>
+                    </ui:VisualElement>
+                    <ui:Toggle label="Copy Materials" value="true" name="copy-materials" />
+                    <uie:EnumField label="Extract Materials" value="No" name="extract-materials" />
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement class="unshrinkable">
+            <ui:VisualElement class="section-buttons">
+                <ui:Button text="Merge Hierarchy" name="merge-hierarchy" class="option-button" />
+                <ui:Button text="Merge Leaves" name="merge-leaves" class="option-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="stats-section" class="section">
+            <ui:Label text="INFO" class="section-title middle-text" />
+            <ui:VisualElement class="section-column">
+                <ui:VisualElement name="children-count" class="toobar-toggle info-pair">
+                    <ui:Label text="Children:" class="data-label" />
+                    <ui:Label text="0" name="value" class="data-value" />
+                </ui:VisualElement>
+                <ui:VisualElement name="meshes-count" class="toobar-toggle info-pair">
+                    <ui:Label text="Meshes:" class="data-label" />
+                    <ui:Label text="0" name="value" class="data-value" />
+                </ui:VisualElement>
+                <ui:VisualElement name="materials-count" class="toobar-toggle info-pair">
+                    <ui:Label text="Materials:" class="data-label" />
+                    <ui:Label text="0" name="value" class="data-value" />
+                </ui:VisualElement>
+                <ui:VisualElement name="vertices-count" class="toobar-toggle info-pair">
+                    <ui:Label text="Vertices:" class="data-label" />
+                    <ui:Label text="0" name="value" class="data-value" />
+                </ui:VisualElement>
+                <ui:VisualElement name="polygons-count" class="toobar-toggle info-pair">
+                    <ui:Label text="Polygons:" class="data-label" />
+                    <ui:Label text="0" name="value" class="data-value" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

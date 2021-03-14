@@ -1,0 +1,24 @@
+<UXML xmlns:ui="UnityEngine.UIElements" xmlns:wvr="TXT.WEAVR.Procedure">
+  <ui:VisualElement name="window" pickingMode="Ignore">
+    <ui:VisualElement name="left-panel" pickingMode="Ignore">
+      <ui:Label text="Select View" class="big-label"/>
+      <ui:VisualElement name="top-panel" pickingMode="Ignore">
+        <ui:Button name="selectAsset-button" text="Main Asset" class="group-button" />
+        <ui:Button name="execModes-button" text="Execution Modes" class="group-button" />
+        <ui:Button name="templates-button" text="Execution Templates" class="group-button" />
+        <ui:Button name="actions-button" text="Actions Catalogue" class="group-button" />
+        <ui:Button name="conditions-button" text="Conditions Catalogue" class="group-button" />
+        <ui:Button name="animations-button" text="Animation Blocks" class="group-button" />
+        <ui:Button name="colorPalette-button" text="Color Palette" class="group-button" />
+      </ui:VisualElement>
+      <ui:VisualElement name="bottom-panel" pickingMode="Ignore">
+
+      </ui:VisualElement>
+    </ui:VisualElement>
+    
+    <ui:VisualElement name="right-panel" pickingMode="Ignore">
+      <ui:Label name="panel-title" text="Content Panel" class="big-label" />
+      <ui:VisualElement name="container" pickingMode="Ignore"/>
+    </ui:VisualElement>
+  </ui:VisualElement>
+</UXML>

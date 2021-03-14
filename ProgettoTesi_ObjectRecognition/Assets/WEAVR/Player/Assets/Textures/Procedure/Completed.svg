@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="194px" height="48px" viewBox="0 0 194 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Completed</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Completed" transform="translate(-24.000000, 0.000000)">
+            <g id="Steps" transform="translate(24.000000, -0.000000)">
+                <rect id="Rectangle-Copy-6" fill="#1B2553" x="0" y="0" width="194" height="48" rx="24"></rect>
+                <text id="Completed:-6" font-family="Montserrat-SemiBold, Montserrat" font-size="18" font-weight="500" fill="#FFFFFF">
+                    <tspan x="54" y="29">Completed: 6</tspan>
+                </text>
+                <g id="icon/check" transform="translate(16.000000, 9.000000)" fill="#FFFFFF">
+                    <path d="M15,2 C22.1797017,2 28,7.82029825 28,15 C28,22.1797017 22.1797017,28 15,28 C7.82029825,28 2,22.1797017 2,15 C2,7.82029825 7.82029825,2 15,2 Z M22.6444018,9.055723 L13.5161678,17.9758994 L9.01383804,13.5158112 L7.253359,15.3217518 L13.5161678,21.5877806 L24.4517214,10.7898856 L22.6444018,9.055723 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

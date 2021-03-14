@@ -1,0 +1,28 @@
+{
+    "name": "WEAVR.RC.Editor.Tests",
+    "references": [
+        "GUID:27619889b8ba8c24980f49ee34dbb44a",
+        "GUID:0acc523941302664db1f4e527237feb3",
+        "GUID:e12e0427d0baf024eb7a016396108d55",
+        "GUID:7663dbc0254414a4fbbb1b75fc7b7008",
+        "GUID:423b5f42892c3ce42abbb8c605d6b840",
+        "GUID:aec837f2d1edd9342bab5fdbdedc3630",
+        "GUID:36eadd015123554419392456a09f1c49"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "WeavrRC.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

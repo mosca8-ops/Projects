@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9570fac37c18554091e32efdb96aa88, type: 3}
+  m_Name: ProcedureDefaults
+  m_EditorClassIdentifier: 
+  m_languages:
+  - {fileID: 11400000, guid: ca371711ff02300469a67adb9ef472a0, type: 2}
+  - {fileID: 11400000, guid: d49b2e0368b28cf4da5d286ac7b7b048, type: 2}
+  - {fileID: 11400000, guid: a33dbfd815218c443827d3b7987f2f42, type: 2}
+  - {fileID: 11400000, guid: 7e099f624a64a5e409d16dda651d4780, type: 2}
+  - {fileID: 11400000, guid: 039315d4d5f2424498c2cec8ce22ee10, type: 2}
+  - {fileID: 11400000, guid: 221f7c0d218bc4a4cb7352c6519706fa, type: 2}
+  - {fileID: 11400000, guid: 247b1a96b9406c54781b8ab65cfa6a12, type: 2}
+  - {fileID: 11400000, guid: 3525d263bac688641a26525b122b0df7, type: 2}
+  m_executionModes:
+  - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+  - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+  - {fileID: 11400000, guid: f1a8f9d8675a33c4da9111e43d7dcb17, type: 2}
+  - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_localizationTable: {fileID: 0}
+  m_actionsCatalogue: {fileID: 11400000, guid: 80458dfd3fefac643ab963b6b440785d, type: 2}
+  m_conditionsCatalogue: {fileID: 11400000, guid: a6aff2d2a8519a14abdf974d09aa5388,
+    type: 2}
+  m_animationBlocksCatalogue: {fileID: 11400000, guid: 070eb20be1f8bbc47b66798a4683dd01,
+    type: 2}
+  m_colorPalette: {fileID: 11400000, guid: 5471946afb0ccc148bbf11b5970eead0, type: 2}
+  m_templates:
+  - {fileID: 11400000, guid: eaa1ea72bae04334683f39743eceaa75, type: 2}
+  - {fileID: 11400000, guid: 079c18ef4d15da04da014f193382937b, type: 2}
+  m_procedureCanvasTester: {fileID: 11400000, guid: 6316c95cffcc63c499e13bd583cf35d3,
+    type: 2}

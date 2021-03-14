@@ -1,0 +1,686 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-440163520694100146
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e43e59f10a7eae3428f039bb3c54c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Play Animation Clip
+  m_fullPath: Actions/Play Animation Clip
+  m_depth: 0
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultBlock: {fileID: 5717037655330188528}
+  m_sampleTypename: AnimationClipBlock
+  m_hiddenProperties: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd900b551c4813a48af3a2be1ce2d9b7, type: 3}
+  m_Name: DefaultAnimationBlocksCatalogue
+  m_EditorClassIdentifier: 
+  m_root: {fileID: 114936084349266540}
+--- !u!114 &114021678768996404
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd97f5df015a2bd49be93e75ddbb51ed, type: 3}
+  m_Name: AnimateTransparencyBlock
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_composer: {fileID: 0}
+  m_variant: 0
+  m_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_startTime: 0
+  m_duration: 1
+  m_track: 0
+  m_targetFrom: 0
+  m_targetRefBlock: 0
+  separator: 0
+  m_target: {fileID: 0}
+  m_transparency:
+    enabled: 0
+    value: 0
+  m_deltaTransparency:
+    enabled: 0
+    value: 0
+--- !u!114 &114070633504724926
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba9f61c20745dc84097bf7d5a0ea95c5, type: 3}
+  m_Name: AnimateMaterialBlock
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_composer: {fileID: 0}
+  m_variant: 0
+  m_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_startTime: 0
+  m_duration: 1
+  m_track: 0
+  m_targetFrom: 0
+  m_targetRefBlock: 0
+  separator: 0
+  m_target: {fileID: 0}
+  m_material: {fileID: 0}
+  m_index: 0
+  m_indices: 00000000
+--- !u!114 &114292477497819454
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e43e59f10a7eae3428f039bb3c54c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Change Transparency
+  m_fullPath: Actions/Change Transparency
+  m_depth: 0
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultBlock: {fileID: 114021678768996404}
+  m_sampleTypename: AnimateTransparencyBlock
+  m_hiddenProperties: []
+--- !u!114 &114311997242557118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52414f5255c429428d9c81a3d885c38, type: 3}
+  m_Name: AnimationClipBlock
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_composer: {fileID: 0}
+  m_variant: 0
+  m_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_startTime: 0
+  m_duration: 1
+  m_track: 0
+  m_targetFrom: 0
+  m_targetRefBlock: 0
+  separator: 0
+  m_target: {fileID: 0}
+  m_clip: {fileID: 0}
+--- !u!114 &114333907271196258
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5e6ee0d87c870c4b865860ebe102793, type: 3}
+  m_Name: WaitBlock
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_composer: {fileID: 0}
+  m_variant: 0
+  m_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_startTime: 0
+  m_duration: 1
+  m_track: 0
+  m_targetFrom: 0
+  m_targetRefBlock: 0
+  separator: 0
+--- !u!114 &114355507597421582
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b139a1bddd9270498db34c5cca3ebbd, type: 3}
+  m_Name: ColorAndTextureBlock
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_composer: {fileID: 0}
+  m_variant: 0
+  m_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_startTime: 0
+  m_duration: 1
+  m_track: 0
+  m_targetFrom: 0
+  m_targetRefBlock: 0
+  separator: 0
+  m_target: {fileID: 0}
+  m_texture:
+    enabled: 0
+    value: {fileID: 0}
+  m_offset:
+    enabled: 0
+    value: {x: 0, y: 0}
+  m_scale:
+    enabled: 0
+    value: {x: 0, y: 0}
+  m_color:
+    enabled: 0
+    value: {r: 0, g: 0, b: 0, a: 0}
+  m_deltaOffset:
+    enabled: 0
+    value: {x: 0, y: 0}
+  m_deltaScale:
+    enabled: 0
+    value: {x: 0, y: 0}
+--- !u!114 &114386220121956402
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e43e59f10a7eae3428f039bb3c54c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Wait
+  m_fullPath: Actions/Wait
+  m_depth: 0
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultBlock: {fileID: 114333907271196258}
+  m_sampleTypename: WaitBlock
+  m_hiddenProperties: []
+--- !u!114 &114542086961639860
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e43e59f10a7eae3428f039bb3c54c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Change Material
+  m_fullPath: Actions/Change Material
+  m_depth: 0
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultBlock: {fileID: 114070633504724926}
+  m_sampleTypename: AnimateMaterialBlock
+  m_hiddenProperties: []
+--- !u!114 &114561701610793634
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e43e59f10a7eae3428f039bb3c54c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Change Color And Texture
+  m_fullPath: Actions/Change Color And Texture
+  m_depth: 0
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultBlock: {fileID: 114355507597421582}
+  m_sampleTypename: ColorAndTextureBlock
+  m_hiddenProperties: []
+--- !u!114 &114600335871441866
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e43e59f10a7eae3428f039bb3c54c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Delta Move
+  m_fullPath: Actions/Delta Move
+  m_depth: 0
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultBlock: {fileID: 114698165017714660}
+  m_sampleTypename: DeltaMoveBlock
+  m_hiddenProperties: []
+--- !u!114 &114698165017714660
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce34c9e617c6d3e418f64b252f460919, type: 3}
+  m_Name: DeltaMoveBlock
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_composer: {fileID: 0}
+  m_variant: 0
+  m_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_startTime: 0
+  m_duration: 1
+  m_track: 0
+  m_targetFrom: 0
+  m_targetRefBlock: 0
+  separator: 0
+  m_target: {fileID: 0}
+  m_space: 0
+  m_moveBy:
+    enabled: 0
+    value: {x: 0, y: 0.5, z: 0}
+  m_rotateBy:
+    enabled: 0
+    value: {x: 0, y: 0, z: 0}
+  m_deltaRotation:
+    enabled: 0
+    value: {x: 0, y: 0, z: 0, w: 0}
+  m_scaleBy:
+    enabled: 0
+    value: {x: 0, y: 0, z: 0}
+  m_axis: {x: 0, y: 0, z: 0}
+  m_angle: 0
+--- !u!114 &114842377601387466
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e43e59f10a7eae3428f039bb3c54c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Move To Target
+  m_fullPath: Actions/Move To Target
+  m_depth: 0
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultBlock: {fileID: 114954817569981608}
+  m_sampleTypename: MoveToPointBlock
+  m_hiddenProperties: []
+--- !u!114 &114936084349266540
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2812ec4d6210f9e4aa984a15a70220f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Actions
+  m_fullPath: Actions
+  m_depth: -1
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_children:
+  - {fileID: 114386220121956402}
+  - {fileID: 114600335871441866}
+  - {fileID: 114842377601387466}
+  - {fileID: 114561701610793634}
+  - {fileID: 114542086961639860}
+  - {fileID: 114292477497819454}
+  - {fileID: -440163520694100146}
+  - {fileID: 8617354252770202175}
+--- !u!114 &114954817569981608
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6ddfee37abe3c408ca5b87e855560f, type: 3}
+  m_Name: MoveToPointBlock
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_composer: {fileID: 0}
+  m_variant: 0
+  m_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_startTime: 0
+  m_duration: 1
+  m_track: 0
+  m_targetFrom: 0
+  m_targetRefBlock: 0
+  separator: 0
+  m_target: {fileID: 0}
+  m_moveTo: {fileID: 0}
+  m_withRotation: 1
+--- !u!114 &5680591104108137475
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 261f6706ef0ec1d4ebab1b1b83df0e9e, type: 3}
+  m_Name: PlayAudioBlock
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_composer: {fileID: 0}
+  m_variant: 0
+  m_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_startTime: 0
+  m_duration: 1
+  m_track: 0
+  m_targetFrom: 0
+  m_targetRefBlock: 0
+  separator: 0
+  m_target: {fileID: 0}
+  m_audio: {fileID: 0}
+--- !u!114 &5717037655330188528
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52414f5255c429428d9c81a3d885c38, type: 3}
+  m_Name: AnimationClipBlock
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_composer: {fileID: 0}
+  m_variant: 0
+  m_curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_startTime: 0
+  m_duration: 1
+  m_track: 0
+  m_targetFrom: 0
+  m_targetRefBlock: 0
+  separator: 0
+  m_target: {fileID: 0}
+  m_clip: {fileID: 0}
+--- !u!114 &8617354252770202175
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e43e59f10a7eae3428f039bb3c54c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Play Audio
+  m_fullPath: Actions/Play Audio
+  m_depth: 0
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultBlock: {fileID: 5680591104108137475}
+  m_sampleTypename: PlayAudioBlock
+  m_hiddenProperties: []

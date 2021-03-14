@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>mode_Automatic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="107.445098%" x2="17.983212%" y2="6.97002915%" id="linearGradient-1">
+            <stop stop-color="#913EDB" offset="0%"></stop>
+            <stop stop-color="#6828C2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="77.744909%" x2="50%" y2="0.775643359%" id="linearGradient-2">
+            <stop stop-color="#95A6AE" offset="0%"></stop>
+            <stop stop-color="#767E9C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5" transform="translate(8.000000, 16.000000)">
+            <rect id="Rectangle-Copy-5" fill="#95A6AE" x="0" y="0" width="103" height="72" rx="8"></rect>
+            <path d="M10,4 L93,4 C95.7614237,4 98,6.23857625 98,9 L98,59 L98,59 L5,59 L5,9 C5,6.23857625 7.23857625,4 10,4 Z" id="Rectangle-Copy-6" fill="#EAF8FE"></path>
+            <path d="M77.8944272,21.7888544 L89.2763932,44.5527864 C89.5233825,45.0467649 89.3231581,45.6474379 88.8291796,45.8944272 C88.6903242,45.9638549 88.5372111,46 88.381966,46 L65.618034,46 C65.0657492,46 64.618034,45.5522847 64.618034,45 C64.618034,44.8447549 64.6541791,44.6916418 64.7236068,44.5527864 L76.1055728,21.7888544 C76.3525621,21.2948759 76.9532351,21.0946515 77.4472136,21.3416408 C77.640741,21.4384045 77.7976635,21.595327 77.8944272,21.7888544 Z" id="Triangle-Copy-3" fill="url(#linearGradient-1)" transform="translate(77.000000, 33.000000) rotate(-270.000000) translate(-77.000000, -33.000000) "></path>
+            <path d="M46,72 L58,72 L58,76.068575 C58,78.8299988 60.2385763,81.068575 63,81.068575 C63.0143246,81.068575 63.0286491,81.0685134 63.0429732,81.0683903 L68.9828107,81.0173377 C70.0873394,81.0078443 70.9904328,81.8955458 70.9999261,83.0000745 C70.9999754,83.0058041 71,83.011534 71,83.0172638 L71,86 C71,87.1045695 70.1045695,88 69,88 L35,88 C33.8954305,88 33,87.1045695 33,86 L33,83.0172638 C33,81.9126943 33.8954305,81.0172638 35,81.0172638 C35.0057298,81.0172638 35.0114597,81.0172884 35.0171893,81.0173377 L40.9570268,81.0683903 C43.7183485,81.0921238 45.9760819,78.87287 45.9998153,76.1115482 C45.9999384,76.0972241 46,76.0828996 46,76.068575 L46,72 L46,72 Z" id="Rectangle-Copy-7" fill="url(#linearGradient-2)"></path>
+            <circle id="Oval-Copy-7" fill="#767E9C" cx="94" cy="65" r="2"></circle>
+            <circle id="Oval-Copy-8" fill="#767E9C" cx="86" cy="65" r="2"></circle>
+            <circle id="Oval-Copy-9" fill="#767E9C" cx="78" cy="65" r="2"></circle>
+            <line x1="18" y1="25.45" x2="49" y2="25.45" id="Path-15-Copy-9" stroke="#767E9C" stroke-width="3.5999999" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="18" y1="32.3699992" x2="49" y2="32.3699992" id="Path-15-Copy-10" stroke="#767E9C" stroke-width="3.5999999" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="18" y1="40" x2="35" y2="40" id="Path-15-Copy-11" stroke="#767E9C" stroke-width="3.5999999" stroke-linecap="round" stroke-linejoin="round"></line>
+        </g>
+    </g>
+</svg>

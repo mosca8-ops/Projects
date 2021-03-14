@@ -1,0 +1,70 @@
+.stepView {
+    --minimap-color: rgba(255, 188, 33, 0.25);
+    background-color: rgba(25, 25, 25, 0.30);
+    border-color: rgba(0, 0, 0, 0.00);
+    border-width: 4px;
+}
+
+    .stepView:hover #group-border {
+        background-color: rgba(30, 30, 30, 0.30);
+        --start-color: #00a1ff;
+        --middle-color: #00a1ff;
+        --end-color: #00a1ff;
+    }
+
+    .stepView #group-border {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        border-radius: 8px;
+        border-width: 4px;
+        --start-color: #dfdfdf;
+        --middle-color: #00a1ff;
+        --end-color: #FFBC21;
+        flex-direction: column;
+        align-items: stretch;
+        opacity: 0.75;
+    }
+
+    .stepView #group-border.selectedBorder {
+        --start-color: rgba(0, 0, 0, 0.00);
+        --middle-color: rgba(0, 0, 0, 0.00);
+        --end-color: rgba(0, 0, 0, 0.00);
+    }
+
+    .stepView #titleField {
+        /* -unity-font: resource("GraphView/DummyFont(LucidaGrande).ttf"); */
+        -unity-text-align: upper-center;
+    }
+
+    .stepView #number {
+        position: absolute;
+        margin-top: 2px;
+        margin-left: 10px;
+        font-size: 42;
+        color: rgba(255, 255, 255, 0.30);
+    }
+
+    .stepView #description {
+        margin-top: 14px;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        color: rgba(255, 255, 255, 0.40);
+        border-color: #808080;
+    }
+
+    .stepView #number.searchPositive {
+        color: #FFBC21;
+    }
+
+    .stepView > .mainContainer > #headerContainer > #titleContainer > #titleLabel.searchPositive {
+        color: #FFBC21;
+    }
+
+    .stepView #description.searchPositive {
+        color: #FFBC21;
+    }

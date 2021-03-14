@@ -1,0 +1,34 @@
+{
+    "procedures": [
+        {
+            "guid": "1ae4ca9b-7bd8-446a-80e4-7c9d0f4a2dd8",
+            "name": "Procedure",
+            "visible": true
+        },
+        {
+            "guid": "5ca09790-9f36-48c6-ba3d-2b9ab358aa7f",
+            "name": "Procedure",
+            "visible": true
+        },
+        {
+            "guid": "af297a0c-7c0b-4313-b580-65c5ac29d5d2",
+            "name": "Procedure",
+            "visible": true
+        },
+        {
+            "guid": "23352af9-c259-4ac7-996d-5bdcfa3dfdc3",
+            "name": "Interaction Scene VT Procedure",
+            "visible": true
+        },
+        {
+            "guid": "d89cb919-a772-493e-86c9-3c1d97c546ce",
+            "name": "Procedure",
+            "visible": true
+        },
+        {
+            "guid": "f6609812-d610-4bd8-9ac5-b830a8715eb7",
+            "name": "Procedure Replace Battery",
+            "visible": true
+        }
+    ]
+}

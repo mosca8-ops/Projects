@@ -1,0 +1,82 @@
+.reorderableList
+{
+    position:Absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background-color:#282828;
+}
+
+.reorderableList > #ListContainer
+{
+    background-color:#383838;
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+
+.reorderableList > * > *
+{
+    flex-direction:row;
+    align-items:center;
+}
+
+.reorderableList > * > *.selected
+{
+    background-color:#3d6091;
+}
+
+.reorderableList > * > * > #DraggingHandle
+{
+    width: 16px;
+    align-items:center;
+    justify-content:center;
+}
+
+.reorderableList > #Toolbar
+{
+    flex-direction:row;
+    align-items:center;
+    justify-content:flex-end;
+}
+
+.reorderableList > #Toolbar > *
+{
+    height: 16px;
+    width: 32px;
+    justify-content:center;
+}
+
+.reorderableList > #Toolbar > #Add
+{
+    border-bottom-left-radius:4;
+}
+.reorderableList > #Toolbar > #Remove
+{
+    border-bottom-right-radius:4;
+}
+
+.reorderableList > #Toolbar > * > #icon
+{
+    width: 16px;
+    height: 16px;
+}
+
+#DraggingHandle #icon
+{
+    width: 10px;
+    height: 6
+}
+
+.reorderableList > #Toolbar > #Add > #icon
+{
+    background-image: resource("VFX/dark_StolenToolbarPlus");
+}
+.reorderableList #Toolbar > #Remove > #icon
+{
+    background-image: resource("VFX/dark_StolenToolbarMinus");
+}
+
+#DraggingHandle #icon
+{
+    background-image: resource("Builtin Skins/DarkSkin/Images/WindowBottomResize.png");
+}

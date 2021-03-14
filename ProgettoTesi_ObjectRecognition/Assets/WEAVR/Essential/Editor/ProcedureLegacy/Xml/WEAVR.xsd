@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2017 rel. 3 sp1 (x64) (http://www.altova.com) by XXX (YYY) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+           xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" 
+           elementFormDefault="qualified" 
+           attributeFormDefault="unqualified" 
+           vc:minVersion="1.1">
+   
+  <!-- Simple Types -->
+  <xs:simpleType name="vectorString">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="(-?([0-9]*\.)?[0-9]+)( *, *-?([0-9]*\.)?[0-9]+)*" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="versionString">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="([0-9]+\.?)+" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <!--Template Related-->
+  <!-- ****************************************************************************** -->
+  <xs:simpleType name="colorType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="([0-9][0-9]?[0-9]?)|[A-Za-z]+" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="baseElement">
+    <xs:attribute name="id" type="xs:string" />
+    <xs:attribute name="row" type="xs:int" />
+    <xs:attribute name="column" type="xs:int" />
+    <xs:attribute name="rowSpan" type="xs:int" />
+    <xs:attribute name="columnSpan" type="xs:int" />
+  </xs:complexType>
+
+  <xs:complexType name="textElement">
+    <xs:attribute name="bold" type="xs:boolean" />
+    <xs:attribute name="italic" type="xs:boolean" />
+    <xs:attribute name="underline" type="xs:boolean" />
+    <xs:attribute name="color" type="colorType" />
+  </xs:complexType>
+
+  <xs:complexType name="textList">
+    <xs:sequence>
+      <xs:element name="li" type="textElement" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="text" mixed="true">
+    <xs:complexContent>
+      <xs:extension base="baseElement">
+        <xs:sequence minOccurs="0">
+          <xs:element name="p" type="textElement" />
+          <xs:element name="list" type="textList" />
+          <xs:element name="ul" type="textList" />
+          <xs:element name="ol" type="textList" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="button" mixed="true">
+    <xs:complexContent>
+      <xs:extension base="baseElement">
+        <xs:attribute name="imageId" type="xs:string" />
+        <xs:attribute name="id" type="xs:string" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="input">
+    <xs:complexContent>
+      <xs:extension base="baseElement">
+        <xs:attribute name="id" type="xs:string" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="image">
+    <xs:complexContent>
+      <xs:extension base="baseElement">
+        <xs:attribute name="imageId" type="xs:string" use="required"/>
+
+        <xs:attribute name="width" type="xs:float" />
+        <xs:attribute name="height" type="xs:float" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="section">
+    <xs:complexContent>
+      <xs:extension base="baseElement">
+        <xs:sequence minOccurs="0" maxOccurs="unbounded">
+          <xs:choice>
+            <xs:element name="section" type="section" />
+            <xs:element name="text" type="text"/>
+            <xs:element name="button" type="button" />
+            <xs:element name="image" type="image"/>
+            <xs:element name="input" type="input"/>
+          </xs:choice>
+        </xs:sequence>
+
+        <xs:attribute name="rows" type="xs:int" />
+        <xs:attribute name="columns" type="xs:int" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="templateType">
+    <xs:sequence>
+      <xs:element name="section" type="section" minOccurs="1" maxOccurs="unbounded" />
+    </xs:sequence>
+    <xs:attribute name="type" type="xs:string" />
+    <xs:attribute name="title" type="xs:string" />
+  </xs:complexType>
+
+  <xs:element name="template" type="templateType" />
+  <!-- ****************************************************************************** -->
+
+  <!-- Common Types -->
+  <xs:complexType name="transformType">
+    <xs:attribute name="isRelative" type="xs:boolean" />
+    <xs:attribute name="relativeObjectId" type="xs:string" />
+    <xs:attribute name="position" type="vectorString" />
+    <xs:attribute name="rotation" type="vectorString" />
+    <xs:attribute name="scale" type="vectorString" />
+  </xs:complexType>
+  
+  <xs:complexType name="objectId">
+    <xs:attribute name="id" type="xs:string" />
+    <xs:attribute name="name" type="xs:string" />
+  </xs:complexType>
+  
+  <xs:complexType name="dataBundle">
+    <xs:attribute name="id" type="xs:string" use="required"/>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="localPath" type="xs:string" />
+    <xs:attribute name="version" type="versionString" use="required" />
+  </xs:complexType>
+
+  <xs:complexType name="dataBundleObject">
+    <xs:attribute name="id" type="xs:string" use="required" />
+    <xs:attribute name="dataBundleId" type="xs:string" />
+  </xs:complexType>
+  
+  <xs:complexType name="sceneObject">
+    <xs:complexContent>
+      <xs:extension base="dataBundleObject">
+        <xs:sequence minOccurs="0" maxOccurs="1">
+          <xs:element name="transform" type="transformType" maxOccurs="1" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="uniqueId" type="xs:string" />
+        <xs:attribute name="hierarchyPath" type="xs:string" />
+        <xs:attribute name="componentType" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  
+  <xs:complexType name="assetObject">
+    <xs:complexContent>
+      <xs:extension base="dataBundleObject">
+        <xs:attribute name="name" type="xs:string" use="required"/>
+        <xs:attribute name="type" type="xs:string" use="required"/>
+        <xs:attribute name="relativePath" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  
+  <xs:complexType name="property">
+    <xs:attribute name="id" type="xs:string" />
+    <xs:attribute name="propertyPath" type="xs:string" />
+    <xs:attribute name="value" type="xs:string" />
+  </xs:complexType>
+  
+  <!-- Condition Types -->
+  <xs:simpleType name="clauseOperation">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="equals" />
+      <xs:enumeration value="notEquals" />
+      <xs:enumeration value="less" />
+      <xs:enumeration value="greater" />
+      <xs:enumeration value="lessOrEqual" />
+      <xs:enumeration value="greaterOrEqual" />
+      <xs:enumeration value="same" />
+      <xs:enumeration value="is" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:complexType name="condition">
+    <xs:attribute name="conditionId" type="xs:string" />
+  </xs:complexType>
+  
+  <xs:complexType name="conditionNode">
+    <xs:complexContent>
+      <xs:extension base="condition">
+        <xs:sequence minOccurs="0" maxOccurs="unbounded">
+          <xs:choice>
+            <xs:element name="or" type="conditionNode" />
+            <xs:element name="and" type="conditionNode" />
+            <xs:element name="not" type="negativeCondition"/>
+            <xs:element name="clause" type="clause" />
+            <xs:element name="existingCondition" type="condition" />
+          </xs:choice>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  
+  <xs:complexType name="negativeCondition">
+    <xs:complexContent>
+      <xs:extension base="condition">
+        <xs:choice>
+          <xs:element name="or" type="conditionNode" />
+          <xs:element name="and" type="conditionNode" />
+          <xs:element name="not" type="negativeCondition"/>
+          <xs:element name="clause" type="clause"/>
+          <xs:element name="existingCondition" type="condition" />
+        </xs:choice>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  
+  <xs:complexType name="clause">
+    <xs:complexContent>
+      <xs:extension base="condition">
+        <xs:sequence>
+          <xs:element name="operandA" type="property" />
+          <xs:element name="operandB" type="property" />
+        </xs:sequence>
+        <xs:attribute name="conditionId" type="xs:string" />
+        <xs:attribute name="operation" type="clauseOperation"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  
+  <!-- Step related Types -->
+  <xs:complexType name="stepAction">
+    <xs:sequence>
+      <xs:element name="data" type="property" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+    <xs:attribute name="type" type="xs:string" />
+  </xs:complexType>
+
+  <xs:complexType name="virtualScreenLink">
+    <xs:attribute name="linkName" type="xs:string" />
+    <xs:attribute name="currentScreenId" type="xs:string" />
+    <xs:attribute name="nextScreenId" type="xs:string" />
+    <xs:attribute name="oneWay" type="xs:boolean" />
+  </xs:complexType>
+
+  <xs:complexType name="virtualScreens">
+    <xs:sequence minOccurs="1" maxOccurs="unbounded">
+      <xs:choice>
+        <xs:element name="templateScreen">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="template" type="templateType" minOccurs="1" maxOccurs="1"/>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required"/>
+            <xs:attribute name="displayId" type="xs:int" />
+            <xs:attribute name="name" type="xs:string" />
+            <xs:attribute name="title" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="simpleScreen">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="picture" minOccurs="0" maxOccurs="unbounded" type="assetObject" />
+              <xs:element name="audio" minOccurs="0" maxOccurs="1" type="assetObject" />
+              <xs:element name="text" minOccurs="0" maxOccurs="unbounded" type="xs:string" />
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required"/>
+            <xs:attribute name="displayId" type="xs:int" />
+            <xs:attribute name="name" type="xs:string" />
+            <xs:attribute name="title" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="videoScreen">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="video" minOccurs="0" maxOccurs="1" type="assetObject" />
+              <xs:element name="audio" minOccurs="0" maxOccurs="1" type="assetObject" />
+              <xs:element name="text" minOccurs="0" maxOccurs="unbounded" type="xs:string" />
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" />
+            <xs:attribute name="displayId" type="xs:int" />
+            <xs:attribute name="name" type="xs:string" />
+            <xs:attribute name="title" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="screenReference">
+          <xs:complexType>
+            <xs:attribute name="referenceId" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="virtualScreensPack">
+    <xs:sequence>
+      <xs:element name="screens" type="virtualScreens" minOccurs="1" maxOccurs="1" />
+      <xs:element name="links" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="link" type="virtualScreenLink" minOccurs="0" maxOccurs="unbounded" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="step">
+    <xs:sequence>
+      <xs:element name="help" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="AR" minOccurs="0" maxOccurs="1">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="data" type="sceneObject" minOccurs="0" maxOccurs="unbounded" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="virtualScreens" minOccurs="0" maxOccurs="1" type="virtualScreensPack" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="enterActions" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="action" type="stepAction" minOccurs="0" maxOccurs="unbounded" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="exitConditions">
+        <xs:complexType>
+          <xs:sequence minOccurs="0" maxOccurs="unbounded">
+            <xs:choice>
+              <xs:element name="or" type="conditionNode" />
+              <xs:element name="and" type="conditionNode" />
+              <xs:element name="not" type="negativeCondition"/>
+              <xs:element name="clause" type="clause" />
+            </xs:choice>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="exitActions" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="action" type="stepAction" minOccurs="0" maxOccurs="unbounded" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:string" use="required"/>
+    <xs:attribute name="name" type="xs:string"/>
+    <xs:attribute name="isMandatory" type="xs:boolean" use="required"/>
+  </xs:complexType>
+
+  <!--Procedure related Types-->
+  <xs:element name="procedure">
+		<xs:complexType>
+			<xs:sequence>
+        <xs:element name="dataBundles" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="data" type="dataBundle" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dataObjects" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:choice minOccurs="1" maxOccurs="unbounded">
+              <xs:element name="object" type="sceneObject" />
+              <xs:element name="asset" type="assetObject" />
+            </xs:choice>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="virtualScreens" type="virtualScreensPack" minOccurs="0" maxOccurs="1" />
+        <xs:element name="steps" minOccurs="1" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="step" type="step" minOccurs="1" maxOccurs="unbounded" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+				<xs:element name="navigation" minOccurs="1" maxOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="firstStep" type="objectId" />
+							<xs:element name="stepLinks">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="stepLink" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="currentStep" type="objectId" />
+													<xs:element name="nextStep" type="objectId" />
+                          <xs:choice>
+                            <xs:element name="or" type="conditionNode" />
+                            <xs:element name="and" type="conditionNode" />
+                            <xs:element name="not" type="negativeCondition"/>
+                            <xs:element name="clause" type="clause" />
+                            <xs:element name="existingCondition" type="condition" />
+                          </xs:choice>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:string" use="required"/>
+			<xs:attribute name="name" type="xs:string" use="required"/>
+			<xs:attribute name="text"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

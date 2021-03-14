@@ -1,0 +1,1457 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7681307666586372918
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 917b55f15ae5fe1498672dd6b0e5ff18, type: 3}
+  m_Name: '[Variable] changed value'
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_variable: Variable
+--- !u!114 &-6115716540687049727
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b222f1d97a845549885f7929939c92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Expert Visually Inspect
+  m_fullPath: Advanced/Expert Visually Inspect
+  m_depth: 2
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 2
+  m_defaultCondition: {fileID: -1950106463134140610}
+  m_sampleTypename: VisualInspectCondition
+  m_hiddenProperties: []
+--- !u!114 &-4396056670819368977
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b222f1d97a845549885f7929939c92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: On Previous
+  m_fullPath: /On Previous
+  m_depth: 1
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultCondition: {fileID: 346067181710223535}
+  m_sampleTypename: OnBackCondition
+  m_hiddenProperties: []
+--- !u!114 &-2793565679752478042
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67eec01bf840b07468962a3bf57f46c1, type: 3}
+  m_Name: ButtonPressedCondition
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_isPressed:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_instantCheck: 0
+--- !u!114 &-2220245456134593286
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b222f1d97a845549885f7929939c92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Simple Visual Inspection
+  m_fullPath: /Simple Visual Inspection
+  m_depth: 1
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 1
+  m_defaultCondition: {fileID: 8979769141805606858}
+  m_sampleTypename: VisualInspectCondition
+  m_hiddenProperties:
+  - m_inspector
+  - m_inspectionLogic
+  - m_useCustomBounds
+  - m_marker
+  - m_lookAtInspector
+  - m_markerColor
+  - m_markerText
+--- !u!114 &-1950106463134140610
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed1db2efa09be4d4994cea9237fe61d7, type: 3}
+  m_Name: ' is visually inspected'
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_target: {fileID: 0}
+  m_inspector: {fileID: 0}
+  m_inspectionLogic: {fileID: 0}
+  m_useCustomBounds: 0
+  m_accumulative:
+    enabled: 0
+    value: 0
+  m_time:
+    enabled: 0
+    value: 0
+  m_distance:
+    enabled: 0
+    value: 0
+  m_showMarker:
+    enabled: 1
+    value:
+      m_procedure: {fileID: 0}
+      m_modes:
+      - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+      - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+      - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_marker: {fileID: 0}
+  m_lookAtInspector:
+    enabled: 0
+    value: 0
+  m_markerColor:
+    enabled: 0
+    value: {r: 0, g: 0, b: 0, a: 0}
+  m_markerText:
+    enabled: 0
+    value:
+      m_key: 
+      m_defaultValue: 
+      m_hasInitializerValue: 0
+      m_values:
+        keys:
+        - en-US
+        values:
+        - 
+  m_bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_markerPosition: {x: 0, y: 0, z: 0}
+  m_markerRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_markerScale: {x: 0, y: 0, z: 0}
+  m_markerInHierarchy: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4426b18737dbf8d418f9b8255889fc6a, type: 3}
+  m_Name: DefaultConditionsCatalogue
+  m_EditorClassIdentifier: 
+  m_root: {fileID: 114291440772744774}
+--- !u!114 &114044775942872984
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1b7d090127cdb44e9ae79d9be4cbf50, type: 3}
+  m_Name: ObjectIsActiveCondition
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_isActive:
+    m_variableName: 
+    m_isVar: 0
+    m_value: 0
+--- !u!114 &114048563288388392
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b222f1d97a845549885f7929939c92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Generic Condition
+  m_fullPath: /Generic Condition
+  m_depth: 0
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultCondition: {fileID: 114318250868668364}
+  m_sampleTypename: 
+  m_hiddenProperties: []
+--- !u!114 &114073666982205450
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 724a7c2819bc42944bb27a09438df12a, type: 3}
+  m_Name: GenericCondition
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_target: {fileID: 0}
+  m_property:
+    m_path: 
+    m_propertyName: 
+    m_targetTypename: 
+    m_propertyTypename: 
+  m_operator:
+    m_operator: 0
+  m_value:
+    m_valueType: 3
+    m_boolValue: 0
+    m_intValue: 0
+    m_stringValue: 
+    m_floatValue: 0
+    m_animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_gradientValue: 
+    m_vectorValue: {x: 0, y: 0, z: 0, w: 0}
+    m_objectValue: {fileID: 0}
+    m_expObjectValue:
+      exposedName: 
+      defaultValue: {fileID: 0}
+    m_typename: 
+    m_byteValue: 0
+    m_shortValue: 0
+    m_variable: 
+--- !u!114 &114097397935924004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4cd8692de6e07b4d98bb01564d69580, type: 3}
+  m_Name: ConditionValidFor
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_validationTime:
+    m_variableName: 
+    m_isVar: 0
+    m_value: 1
+  m_progressive: 0
+  m_condition: {fileID: 0}
+--- !u!114 &114128626532363176
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 724a7c2819bc42944bb27a09438df12a, type: 3}
+  m_Name: GenericCondition
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_target: {fileID: 0}
+  m_property:
+    m_path: 
+    m_propertyName: 
+    m_targetTypename: 
+    m_propertyTypename: 
+  m_operator:
+    m_operator: 0
+  m_value:
+    m_valueType: 3
+    m_boolValue: 0
+    m_intValue: 0
+    m_stringValue: 
+    m_floatValue: 0
+    m_animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_gradientValue: 
+    m_vectorValue: {x: 0, y: 0, z: 0, w: 0}
+    m_objectValue: {fileID: 0}
+    m_expObjectValue:
+      exposedName: 
+      defaultValue: {fileID: 0}
+    m_typename: 
+    m_byteValue: 0
+    m_shortValue: 0
+    m_variable: 
+--- !u!114 &114155538134658796
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4cd8692de6e07b4d98bb01564d69580, type: 3}
+  m_Name: ConditionValidFor
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_validationTime:
+    m_variableName: 
+    m_isVar: 0
+    m_value: 1
+  m_progressive: 0
+  m_condition: {fileID: 0}
+--- !u!114 &114217483950127132
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b222f1d97a845549885f7929939c92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Object Is Visible By Camera
+  m_fullPath: /Object Is Visible By Camera
+  m_depth: 1
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultCondition: {fileID: 114661284014127546}
+  m_sampleTypename: ObjectIsVisibleByCameraCondition
+  m_hiddenProperties: []
+--- !u!114 &114264631995910076
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 724a7c2819bc42944bb27a09438df12a, type: 3}
+  m_Name: GenericCondition
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_target: {fileID: 0}
+  m_property:
+    m_path: 
+    m_propertyName: 
+    m_targetTypename: 
+    m_propertyTypename: 
+  m_operator:
+    m_operator: 0
+  m_value:
+    m_valueType: 3
+    m_boolValue: 0
+    m_intValue: 0
+    m_stringValue: 
+    m_floatValue: 0
+    m_animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_gradientValue: 
+    m_vectorValue: {x: 0, y: 0, z: 0, w: 0}
+    m_objectValue: {fileID: 0}
+    m_expObjectValue:
+      exposedName: 
+      defaultValue: {fileID: 0}
+    m_typename: 
+    m_byteValue: 0
+    m_shortValue: 0
+    m_variable: 
+--- !u!114 &114291440772744774
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2812ec4d6210f9e4aa984a15a70220f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: 
+  m_fullPath: 
+  m_depth: 0
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_children:
+  - {fileID: 114753995865614904}
+  - {fileID: 114690260550877472}
+  - {fileID: 114598851951231604}
+  - {fileID: 114402309516720940}
+  - {fileID: 114515104365431318}
+  - {fileID: 114341649037821218}
+  - {fileID: 114654001815733650}
+  - {fileID: 114217483950127132}
+  - {fileID: 114743657211339764}
+  - {fileID: 114441874309187372}
+  - {fileID: -2220245456134593286}
+  - {fileID: 114722908573156224}
+  - {fileID: 7721556692211463961}
+  - {fileID: 9105727911925101461}
+  - {fileID: 3951976955152308427}
+  - {fileID: -4396056670819368977}
+  - {fileID: 114990955677603144}
+--- !u!114 &114318250868668364
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 724a7c2819bc42944bb27a09438df12a, type: 3}
+  m_Name: GenericCondition
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_target: {fileID: 0}
+  m_property:
+    m_path: 
+    m_propertyName: 
+    m_targetTypename: 
+    m_propertyTypename: 
+  m_operator:
+    m_operator: 0
+  m_value:
+    m_valueType: 3
+    m_boolValue: 0
+    m_intValue: 0
+    m_stringValue: 
+    m_floatValue: 0
+    m_animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_gradientValue: 
+    m_vectorValue: {x: 0, y: 0, z: 0, w: 0}
+    m_objectValue: {fileID: 0}
+    m_expObjectValue:
+      exposedName: 
+      defaultValue: {fileID: 0}
+    m_typename: 
+    m_byteValue: 0
+    m_shortValue: 0
+    m_variable: 
+--- !u!114 &114341649037821218
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b222f1d97a845549885f7929939c92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Object Is In Area
+  m_fullPath: /Object Is In Area
+  m_depth: 1
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultCondition: {fileID: 114582073934234978}
+  m_sampleTypename: ObjectInAreaCondition
+  m_hiddenProperties: []
+--- !u!114 &114344301693098202
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc23d1ef9a57fc42b07f26e65f24be0, type: 3}
+  m_Name: DistanceCondition
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 1
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_lessThan:
+    m_variableName: 
+    m_isVar: 0
+    m_value: 0
+  m_from:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+--- !u!114 &114363955542035014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d6439dc9c4235b4883d3b709a1727d0, type: 3}
+  m_Name: ValueChangedCondition
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_target: {fileID: 0}
+  m_property:
+    m_path: 
+    m_propertyName: 
+    m_targetTypename: 
+    m_propertyTypename: 
+--- !u!114 &114402309516720940
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b222f1d97a845549885f7929939c92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Distance Between Objects
+  m_fullPath: /Distance Between Objects
+  m_depth: 1
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultCondition: {fileID: 114710399718135396}
+  m_sampleTypename: DistanceCondition
+  m_hiddenProperties: []
+--- !u!114 &114413853037430642
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8211d10f69a900e49badbaf896e8f8a3, type: 3}
+  m_Name: GenericComparisonCondition
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_targetA: {fileID: 0}
+  m_propertyA:
+    m_path: 
+    m_propertyName: 
+    m_targetTypename: 
+    m_propertyTypename: 
+  m_operator:
+    m_operator: 0
+  m_targetB: {fileID: 0}
+  m_propertyB:
+    m_path: 
+    m_propertyName: 
+    m_targetTypename: 
+    m_propertyTypename: 
+--- !u!114 &114441874309187372
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b222f1d97a845549885f7929939c92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Visually Inspect
+  m_fullPath: /Visually Inspect
+  m_depth: 1
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultCondition: {fileID: 114784738349341080}
+  m_sampleTypename: VisualInspectCondition
+  m_hiddenProperties:
+  - m_marker
+  - m_markerText
+  - m_inspectionLogic
+  - m_inspector
+  - m_lookAtInspector
+--- !u!114 &114457892733160734
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5672cf6fad041334cbbfc49940439f5d, type: 3}
+  m_Name: ConditionOr
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 1
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_children: []
+--- !u!114 &114494172110096070
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 724a7c2819bc42944bb27a09438df12a, type: 3}
+  m_Name: GenericCondition
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_target: {fileID: 0}
+  m_property:
+    m_path: 
+    m_propertyName: 
+    m_targetTypename: 
+    m_propertyTypename: 
+  m_operator:
+    m_operator: 0
+  m_value:
+    m_valueType: 3
+    m_boolValue: 0
+    m_intValue: 0
+    m_stringValue: 
+    m_floatValue: 0
+    m_animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_gradientValue: 
+    m_vectorValue: {x: 0, y: 0, z: 0, w: 0}
+    m_objectValue: {fileID: 0}
+    m_expObjectValue:
+      exposedName: 
+      defaultValue: {fileID: 0}
+    m_typename: 
+    m_byteValue: 0
+    m_shortValue: 0
+    m_variable: 
+--- !u!114 &114515104365431318
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b222f1d97a845549885f7929939c92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Is Execution Mode
+  m_fullPath: /Is Execution Mode
+  m_depth: 1
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultCondition: {fileID: 114686830588750786}
+  m_sampleTypename: ExecutionModeCondition
+  m_hiddenProperties: []
+--- !u!114 &114525501376450036
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b222f1d97a845549885f7929939c92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Condition Valid For
+  m_fullPath: /Condition Valid For
+  m_depth: 0
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultCondition: {fileID: 114097397935924004}
+  m_sampleTypename: 
+  m_hiddenProperties: []
+--- !u!114 &114582073934234978
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 587956efce2bd1b43b0c3b0ec7880b59, type: 3}
+  m_Name: ObjectInAreaCondition
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_area:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_when: 0
+  m_how: 2
+--- !u!114 &114598851951231604
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b222f1d97a845549885f7929939c92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Condition Valid For
+  m_fullPath: /Condition Valid For
+  m_depth: 1
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultCondition: {fileID: 114155538134658796}
+  m_sampleTypename: ConditionValidFor
+  m_hiddenProperties: []
+--- !u!114 &114654001815733650
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b222f1d97a845549885f7929939c92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Object Is Active
+  m_fullPath: /Object Is Active
+  m_depth: 1
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultCondition: {fileID: 114044775942872984}
+  m_sampleTypename: ObjectIsActiveCondition
+  m_hiddenProperties: []
+--- !u!114 &114661284014127546
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0de920dbfba21834987819de8251bb18, type: 3}
+  m_Name: ObjectIsVisibleByCameraCondition
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_camera:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_visible:
+    m_variableName: 
+    m_isVar: 0
+    m_value: 0
+--- !u!114 &114686830588750786
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02a8927f2764afd459f436ff017d15fc, type: 3}
+  m_Name: ExecutionModeCondition
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 1
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_modeIs: {fileID: 0}
+  m_executionModes: []
+--- !u!114 &114690260550877472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b222f1d97a845549885f7929939c92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Generic Comparison
+  m_fullPath: /Generic Comparison
+  m_depth: 1
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultCondition: {fileID: 114413853037430642}
+  m_sampleTypename: GenericComparisonCondition
+  m_hiddenProperties: []
+--- !u!114 &114710399718135396
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc23d1ef9a57fc42b07f26e65f24be0, type: 3}
+  m_Name: DistanceCondition
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_lessThan:
+    m_variableName: 
+    m_isVar: 0
+    m_value: 0
+  m_from:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+--- !u!114 &114722797483188876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b4671f5420d2945896b4cc67674b26, type: 3}
+  m_Name: ConditionAnd
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 1
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_children: []
+--- !u!114 &114722908573156224
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b222f1d97a845549885f7929939c92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Query Method
+  m_fullPath: /Query Method
+  m_depth: 1
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultCondition: {fileID: 114853295791168296}
+  m_sampleTypename: CallMethodCondition
+  m_hiddenProperties: []
+--- !u!114 &114743657211339764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b222f1d97a845549885f7929939c92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Value Has Changed
+  m_fullPath: /Value Has Changed
+  m_depth: 1
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultCondition: {fileID: 114363955542035014}
+  m_sampleTypename: ValueChangedCondition
+  m_hiddenProperties: []
+--- !u!114 &114753995865614904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b222f1d97a845549885f7929939c92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Generic Value
+  m_fullPath: /Generic Value
+  m_depth: 1
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultCondition: {fileID: 114494172110096070}
+  m_sampleTypename: GenericCondition
+  m_hiddenProperties: []
+--- !u!114 &114759524642247182
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 587956efce2bd1b43b0c3b0ec7880b59, type: 3}
+  m_Name: ObjectInAreaCondition
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_target:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_area:
+    m_variableName: 
+    m_isVar: 0
+    m_value: {fileID: 0}
+  m_when: 0
+  m_how: 0
+--- !u!114 &114784738349341080
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed1db2efa09be4d4994cea9237fe61d7, type: 3}
+  m_Name: ' is visually inspected'
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_target: {fileID: 0}
+  m_inspector: {fileID: 0}
+  m_inspectionLogic: {fileID: 0}
+  m_useCustomBounds: 0
+  m_accumulative:
+    enabled: 0
+    value: 0
+  m_time:
+    enabled: 1
+    value: 3
+  m_distance:
+    enabled: 0
+    value: 0
+  m_showMarker:
+    enabled: 1
+    value:
+      m_procedure: {fileID: 0}
+      m_modes:
+      - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+      - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+      - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_marker: {fileID: 0}
+  m_lookAtInspector:
+    enabled: 0
+    value: 0
+  m_markerColor:
+    enabled: 0
+    value: {r: 0.15263441, g: 0.6003923, b: 0.6603774, a: 0.78431374}
+  m_markerText:
+    enabled: 0
+    value:
+      m_key: 
+      m_defaultValue: 
+      m_hasInitializerValue: 0
+      m_values:
+        keys:
+        - en-US
+        - it
+        - de
+        values:
+        - 
+        - 
+        - 
+  m_bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.05, y: 0.05, z: 0.05}
+  m_markerPosition: {x: 0, y: 0, z: 0}
+  m_markerRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_markerScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_markerInHierarchy: 0
+--- !u!114 &114853295791168296
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbb51a99e7b61994dbcd9a1095a37211, type: 3}
+  m_Name: CallMethodCondition
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_target: {fileID: 0}
+  m_componentType: 
+  m_methodId: 
+  m_fieldPath: 
+  m_parameters: []
+  m_operator:
+    m_operator: 0
+  m_value:
+    m_valueType: 3
+    m_boolValue: 0
+    m_intValue: 0
+    m_stringValue: 
+    m_floatValue: 0
+    m_animationCurveValue:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_gradientValue: 
+    m_vectorValue: {x: 0, y: 0, z: 0, w: 0}
+    m_objectValue: {fileID: 0}
+    m_expObjectValue:
+      exposedName: 
+      defaultValue: {fileID: 0}
+    m_typename: 
+    m_byteValue: 0
+    m_shortValue: 0
+    m_variable: 
+    m_paramId: 0
+--- !u!114 &114894615513008824
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2812ec4d6210f9e4aa984a15a70220f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: 
+  m_fullPath: 
+  m_depth: 0
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_children:
+  - {fileID: 114048563288388392}
+  - {fileID: 114525501376450036}
+--- !u!114 &114895538597290228
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d6439dc9c4235b4883d3b709a1727d0, type: 3}
+  m_Name: ValueChangedCondition
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_target: {fileID: 0}
+  m_property:
+    m_path: 
+    m_propertyName: 
+    m_targetTypename: 
+    m_propertyTypename: 
+--- !u!114 &114990955677603144
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2812ec4d6210f9e4aa984a15a70220f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Advanced
+  m_fullPath: Advanced
+  m_depth: 1
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_children:
+  - {fileID: -6115716540687049727}
+--- !u!114 &346067181710223535
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2004b024ae1866044b45ffb71d801ebb, type: 3}
+  m_Name: On Previous
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+--- !u!114 &3951976955152308427
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b222f1d97a845549885f7929939c92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Variable Value Changed
+  m_fullPath: /Variable Value Changed
+  m_depth: 1
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultCondition: {fileID: -7681307666586372918}
+  m_sampleTypename: GlobalValueChangedCondition
+  m_hiddenProperties: []
+--- !u!114 &6722562750708502870
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11885c1f53c2f5c4bacb906ca8971f9a, type: 3}
+  m_Name: GlobalValuesGetCondition
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_variableName: Variable
+  m_valueType: 0
+  m_exists: 0
+  m_operator:
+    m_operator: 0
+  m_boolValue: 0
+  m_intValue: 0
+  m_floatValue: 0
+  m_stringValue: 
+  m_colorValue: {r: 0, g: 0, b: 0, a: 0}
+  m_vector3Value: {x: 0, y: 0, z: 0}
+  m_objectValue: {fileID: 0}
+  m_caseSensitive: 1
+  m_otherVariable: 
+--- !u!114 &7721556692211463961
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b222f1d97a845549885f7929939c92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Button Is Pressed
+  m_fullPath: /Button Is Pressed
+  m_depth: 1
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultCondition: {fileID: -2793565679752478042}
+  m_sampleTypename: ButtonPressedCondition
+  m_hiddenProperties: []
+--- !u!114 &8979769141805606858
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed1db2efa09be4d4994cea9237fe61d7, type: 3}
+  m_Name: ' is visually inspected'
+  m_EditorClassIdentifier: 
+  m_guid: 
+  m_procedure: {fileID: 0}
+  m_variant: 0
+  m_canCacheValue: 0
+  m_isGlobal: 1
+  m_isNegated: 0
+  m_target: {fileID: 0}
+  m_inspector: {fileID: 0}
+  m_inspectionLogic: {fileID: 0}
+  m_useCustomBounds: 0
+  m_accumulative:
+    enabled: 0
+    value: 0
+  m_time:
+    enabled: 0
+    value: 0
+  m_distance:
+    enabled: 0
+    value: 0
+  m_showMarker:
+    enabled: 1
+    value:
+      m_procedure: {fileID: 0}
+      m_modes:
+      - {fileID: 11400000, guid: 28b794532e4d8c640889cee10f1b896a, type: 2}
+      - {fileID: 11400000, guid: 9b60beb3f7a5fd44390d7f6b72a0b879, type: 2}
+      - {fileID: 11400000, guid: ae6667e1e04c7aa4baaef9ce94f0dae8, type: 2}
+  m_marker: {fileID: 0}
+  m_lookAtInspector:
+    enabled: 0
+    value: 0
+  m_markerColor:
+    enabled: 0
+    value: {r: 0, g: 0, b: 0, a: 0}
+  m_markerText:
+    enabled: 0
+    value:
+      m_key: 
+      m_defaultValue: 
+      m_hasInitializerValue: 0
+      m_values:
+        keys:
+        - en-US
+        - it
+        - de
+        values:
+        - 
+        - 
+        - 
+  m_bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.05, y: 0.05, z: 0.05}
+  m_markerPosition: {x: 0, y: 0, z: 0}
+  m_markerRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_markerScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_markerInHierarchy: 0
+--- !u!114 &9105727911925101461
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b222f1d97a845549885f7929939c92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Get Variable
+  m_fullPath: /Get Variable
+  m_depth: 1
+  m_color: {r: 0, g: 0, b: 0, a: 0}
+  m_icon: {fileID: 0}
+  m_description: 
+  m_variant: 0
+  m_defaultCondition: {fileID: 6722562750708502870}
+  m_sampleTypename: GlobalValuesGetCondition
+  m_hiddenProperties: []

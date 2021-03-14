@@ -1,0 +1,18 @@
+<UXML xmlns:ui="UnityEngine.UIElements" xmlns:wvr="TXT.WEAVR.Procedure">
+  <ui:VisualElement name="window" pickingMode="Ignore">
+
+
+    <ui:Label name="no-procedures-label" text="No procedures found" />
+
+    <ui:ScrollView pickingMode="Ignore">
+      <ui:VisualElement name="procedures-list" pickingMode="Ignore">
+
+      </ui:VisualElement>
+    </ui:ScrollView>
+    
+    <ui:VisualElement name="scenes-container" pickingMode="Ignore">
+      <ui:Toggle name="current-scene" text="Current Scene" class="scene-toggle"/>
+      <ui:Toggle name="all-scenes" text="All Scenes" class="scene-toggle"/>
+    </ui:VisualElement>
+  </ui:VisualElement>
+</UXML>

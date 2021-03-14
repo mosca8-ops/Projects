@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3517581883599064207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1153701299019708251}
+  - component: {fileID: 4552805059837235850}
+  - component: {fileID: 2968991329427079419}
+  m_Layer: 0
+  m_Name: SceneNetwork
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1153701299019708251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3517581883599064207}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 315.5204, y: 73.950134, z: 6.448641}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4552805059837235850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3517581883599064207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6087d36af0e243340a6c00a6e3007482, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_scenePlayer: {fileID: 0}
+  m_avatarPrefab: {fileID: 7062577355240080224, guid: fd725e699cde1e448a17d97daa670ca4,
+    type: 3}
+  m_avatarPrefab_PC: {fileID: 0}
+  m_avatarPrefab_VR: {fileID: 1513282815312790, guid: b21c12ac65a74d4468848107b53d206b,
+    type: 3}
+  m_avatarPrefab_Android: {fileID: 0}
+  m_avatarPrefab_Apple: {fileID: 0}
+  m_avatarPrefab_Hololens: {fileID: 0}
+--- !u!114 &2968991329427079419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3517581883599064207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b136dedd0b437474bad04c3f67b8104c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rpcsCount: 0
+  m_rpcBehaviours: []

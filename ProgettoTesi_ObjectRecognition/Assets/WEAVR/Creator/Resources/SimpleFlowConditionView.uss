@@ -1,0 +1,137 @@
+/*SIMPLE FLOW CONDITION STYLES*/
+
+.simpleFlowConditionView {
+    margin-top: 3px;
+    --refresh-color: #009bfd;
+    --description-color: #b0b0b0;
+}
+
+    .simpleFlowConditionView.mandatory {
+        --description-color: #ffffff;
+    }
+
+.unreacheable .simpleFlowConditionView {
+    --description-color: #6f6f6f;
+}
+
+.simpleFlowConditionView.first {
+    margin-top: 0px;
+}
+
+.simpleFlowConditionView #contents {
+    background-color: rgba(0, 0, 0, 0.80);
+    flex-direction: row;
+}
+
+.simpleFlowConditionView.triggered #contents {
+    background-color: #002f4d;
+    flex-direction: row;
+}
+
+/*.simpleFlowConditionView #description {
+    color: #b0b0b0;
+}
+
+.simpleFlowConditionView.mandatory #description {
+    color: #ffffff;
+}
+
+.simpleFlowConditionView.triggered #description {
+    color: #ffffff;
+}*/
+
+.simpleFlowConditionView #colored-box {
+    width: 0px;
+    background-color: #4cff00;
+}
+
+.simpleFlowConditionView #flow-outputs {
+    right: -12px;
+}
+
+    .simpleFlowConditionView #flow-outputs .output.flowPort {
+        padding-left: 0px;
+    }
+
+.simpleFlowConditionView #contents > #description {
+    color: #b0b0b0;
+    flex-grow: 1;
+    padding: 2px;
+    margin-left: 32px;
+    margin-right: 12px;
+    font-size: 12;
+    -unity-font-style: bold;
+    white-space: normal;
+    -unity-text-align: Middle-Right;
+}
+
+.simpleFlowConditionView.mandatory #contents > #description {
+    color: #ffffff;
+    font-size: 13;
+}
+
+.simpleFlowConditionView.triggered #contents > #description {
+    color: #ffffff;
+}
+
+.simpleFlowConditionView #negated {
+    /*position: absolute;*/
+    /*align-self: center;*/
+    color: #d5642e;
+    font-size: 12;
+    -unity-font-style: bold;
+    -unity-text-align: middle-left;
+    margin: 0;
+    padding: 0 2px;
+}
+
+.simpleFlowConditionView.searchPositive #contents {
+    background-color: #baa700;
+}
+
+.simpleFlowConditionView.searchPositive {
+    --description-color: #000000;
+}
+
+.simpleFlowConditionView.searchNegative #contents {
+    background-color: rgba(129, 129, 129, 0.05);
+}
+
+.simpleFlowConditionView.searchNegative {
+    --description-color: #e8e8e8;
+}
+
+
+/**********  SYNCHRONIZATION CLASSES  ********************/
+#config-container {
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    margin: 0;
+    left: 2px;
+}
+
+.sync-type-elem {
+    display: none;
+    -unity-text-align: middle-center;
+    padding: 0 2px;
+    margin: 0;
+    margin-left: 2px;
+    font-size: 14px;
+    border-width: 1px;
+    border-radius: 4px;
+    width: 16px;
+    height: 16px;
+    border-color: #0094ff;
+}
+
+.simpleFlowConditionView.is-global #is-global-elem {
+    display: flex;
+}
+
+.simpleFlowConditionView.is-local #is-local-elem {
+    display: flex;
+}

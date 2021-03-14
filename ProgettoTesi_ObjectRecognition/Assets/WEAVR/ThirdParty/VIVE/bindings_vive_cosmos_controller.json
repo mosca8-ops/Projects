@@ -1,0 +1,143 @@
+{
+  "app_key": "application.generated.unity.zero.exe",
+  "bindings": {
+    "/actions/weavr": {
+      "chords": [],
+      "poses": [
+        {
+          "output": "/actions/weavr/in/pose",
+          "path": "/user/hand/left/pose/raw"
+        },
+        {
+          "output": "/actions/weavr/in/pose",
+          "path": "/user/hand/right/pose/raw"
+        }
+      ],
+      "haptics": [
+        {
+          "output": "/actions/weavr/out/haptic",
+          "path": "/user/hand/left/output/haptic"
+        },
+        {
+          "output": "/actions/weavr/out/haptic",
+          "path": "/user/hand/right/output/haptic"
+        }
+      ],
+      "sources": [
+        {
+          "path": "/user/hand/left/input/trigger",
+          "mode": "trigger",
+          "parameters": {},
+          "inputs": {
+            "click": {
+              "output": "/actions/weavr/in/triggerpressed"
+            },
+            "pull": {
+              "output": "/actions/weavr/in/trigger"
+            }
+          }
+        },
+        {
+          "path": "/user/hand/left/input/application_menu",
+          "mode": "button",
+          "parameters": {},
+          "inputs": {
+            "click": {
+              "output": "/actions/weavr/in/menu"
+            }
+          }
+        },
+        {
+          "path": "/user/hand/left/input/joystick",
+          "mode": "joystick",
+          "parameters": {},
+          "inputs": {
+            "position": {
+              "output": "/actions/weavr/in/trackpad"
+            },
+            "touch": {
+              "output": "/actions/weavr/in/trackpadpressed"
+            }
+          }
+        },
+		{
+          "path": "/user/hand/left/input/joystick",
+          "mode": "dpad",
+          "parameters": {
+			"sub_mode": "touch",
+			"deadzone_pct": "25",
+			"overlap_pct": "30"
+		  },
+          "inputs": {
+            "north": {
+              "output": "/actions/weavr/in/trackpadclicked"
+            }
+          }
+        },
+        {
+          "path": "/user/hand/right/input/application_menu",
+          "mode": "button",
+          "parameters": {},
+          "inputs": {
+            "click": {
+              "output": "/actions/weavr/in/menu"
+            }
+          }
+        },
+        {
+          "path": "/user/hand/right/input/joystick",
+          "mode": "joystick",
+          "parameters": {},
+          "inputs": {
+            "position": {
+              "output": "/actions/weavr/in/trackpad"
+            },
+            "touch": {
+              "output": "/actions/weavr/in/trackpadpressed"
+            }
+          }
+        },
+		{
+          "path": "/user/hand/right/input/joystick",
+          "mode": "dpad",
+          "parameters": {
+			"sub_mode": "touch",
+			"deadzone_pct": "25",
+			"overlap_pct": "30"
+		  },
+          "inputs": {
+            "north": {
+              "output": "/actions/weavr/in/trackpadclicked"
+            }
+          }
+        },
+        {
+          "path": "/user/hand/right/input/trigger",
+          "mode": "trigger",
+          "parameters": {},
+          "inputs": {
+            "click": {
+              "output": "/actions/weavr/in/triggerpressed"
+            },
+            "pull": {
+              "output": "/actions/weavr/in/trigger"
+            }
+          }
+        }
+      ],
+      "skeleton": [
+        {
+          "output": "/actions/weavr/in/skeletonrighthand",
+          "path": "/user/hand/right/input/skeleton/right"
+        },	  
+        {
+          "output": "/actions/weavr/in/skeletonlefthand",
+          "path": "/user/hand/left/input/skeleton/left"
+        }
+      ]
+    }
+  },
+  "controller_type": "vive_cosmos_controller",
+  "description": "",
+  "name": "vive_controller_test"
+}

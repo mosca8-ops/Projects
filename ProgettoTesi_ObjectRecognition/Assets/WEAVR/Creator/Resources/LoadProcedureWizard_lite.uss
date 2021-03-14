@@ -1,0 +1,219 @@
+#window {
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 10px;
+}
+
+    #window .unity-scroll-view {
+        flex-grow: 1;
+    }
+
+        #window .unity-scroll-view #unity-content-viewport {
+            padding-top: 32px;
+            left: 0px;
+            right: 0px;
+        }
+
+* Label, * TextField, * .unity-text-element {
+    -unity-font: resource("fonts/Roboto-Regular");
+}
+
+.tiny-text {
+    font-size: 10;
+    color: #787878;
+}
+
+.small-text {
+    font-size: 12;
+    color: #787878;
+}
+
+.medium-text {
+    font-size: 14;
+    color: #787878;
+}
+
+.big-text {
+    /*align-self: center;*/
+    font-size: 22;
+}
+
+.wrapped-text {
+    white-space: normal;
+}
+
+.huge-text {
+    font-size: 32;
+}
+
+.labeled-text {
+    flex-direction: row;
+}
+
+.label {
+    margin-right: -4px;
+}
+
+.right-aligned-text {
+    -unity-text-align: middle-right;
+    flex-grow: 1;
+}
+
+.left-aligned-text {
+    -unity-text-align: middle-left;
+    flex-grow: 1;
+}
+
+.lang-element {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.lang-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.lang-label {
+    font-size: 9;
+}
+
+.centered {
+    justify-content: center;
+}
+
+.procedure-button #config-container {
+    background-color: #bddae0;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    margin-left: -4px;
+}
+
+.procedure-button #languages {
+    margin-left: 4px;
+}
+
+.procedure-button #procedure-description {
+    border-top-width: 1px;
+    border-color: #a2a2a2;
+    padding-top: 4px;
+    color: #444444;
+}
+
+#scenes-container {
+    background-color: rgba(0, 0, 0, 0.70);
+    flex-direction: row;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    justify-content: center;
+}
+
+.scene-toggle {
+    margin: 2px;
+}
+
+    .scene-toggle > Label {
+        font-size: 20;
+        border-bottom-width: 2px;
+        border-color: #a2a2a2;
+        color: #a2a2a2;
+    }
+
+    .scene-toggle:checked > Label {
+        color: #019db7;
+        border-color: #019db7;
+    }
+
+#no-procedures-label {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    justify-content: center;
+    font-size: 42;
+    -unity-text-align: Middle-Center;
+}
+
+
+.procedure-button {
+    background-image: none;
+    background-color: #ebebeb;
+    color: #a2a2a2;
+    border-width: 2px;
+    border-radius: 12px;
+    padding: 2px 8px;
+    border-color: #949494;
+}
+
+    .procedure-button Label {
+    }
+
+    .procedure-button.selected {
+        background-image: none;
+        color: #019db7;
+        border-color: #019db7;
+    }
+
+    .procedure-button:hover {
+        background-image: none;
+        background-color: #bddae0;
+        color: #019db7;
+        border-color: #019db7;
+    }
+
+        .procedure-button:hover:focus {
+            background-image: none;
+            color: #019db7;
+            border-color: #019db7;
+        }
+
+    .procedure-button:active {
+        background-image: none;
+        background-color: #cccccc;
+        color: #006879;
+        border-color: #006879;
+    }
+
+    .procedure-button:hover:active {
+        background-image: none;
+        background-color: #cccccc;
+        color: #006879;
+        border-color: #006879;
+    }
+
+    .procedure-button:active:focus {
+        background-image: none;
+        background-color: #cccccc;
+        color: #006879;
+        border-color: #006879;
+    }
+
+    .procedure-button #config-type {
+        -unity-text-align: Middle-Center;
+        /*-unity-font-style: bold;*/
+        min-width: 60px;
+        flex-grow: 1;
+    }
+
+    .procedure-button #main-info-container {
+        flex: 1;
+        padding: 0px 4px;
+    }
+
+
+    .procedure-button #aux-info-container {
+        right: 0px;
+        border-left-width: 1px;
+        border-color: #a2a2a2;
+    }
+
+.horizontal {
+    flex-direction: row;
+}
+
+IMGUIContainer {
+    flex: 1;
+}

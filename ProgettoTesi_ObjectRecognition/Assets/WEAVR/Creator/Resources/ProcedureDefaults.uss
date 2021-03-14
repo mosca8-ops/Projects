@@ -1,0 +1,123 @@
+#window {
+    flex-direction: row;
+    align-items: stretch;
+    margin-bottom: 10px;
+}
+
+.big-label {
+    align-self: center;
+    font-size: 16;
+    -unity-font-style: bold;
+}
+
+#left-panel {
+    width: 360px;
+    border-left-width: 1px;
+    border-color: rgba(0, 0, 0, 0.50);
+}
+
+#bottom-panel {
+    margin-top: 20px;
+    align-self: stretch;
+    flex: 1 ;
+}
+
+#right-panel {
+    align-self: auto;
+    flex: 1 ;
+}
+
+#container {
+    align-self: stretch;
+    flex: 1 ;
+}
+
+.group-button {
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.50);
+    font-size: 16;
+    /*width: 100px;
+    height: 80px;*/
+    color: #a2a2a2;
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.00);
+}
+
+    .group-button Label {
+        font-size: 10;
+        position: absolute;
+        bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        align-self: center;
+    }
+
+    .group-button.selected {
+        background-image: none;
+        background-color: #019db7;
+        color: #000000;
+        border-color: #019db7;
+    }
+
+        .group-button.selected:hover {
+            background-image: none;
+            color: #000000;
+            border-color: #019db7;
+        }
+
+    .group-button:hover {
+        background-image: none;
+        color: #019db7;
+        border-color: #019db7;
+    }
+
+        .group-button:hover:focus {
+            background-image: none;
+            color: #019db7;
+            border-color: #019db7;
+        }
+
+    .group-button:active {
+        background-image: none;
+        background-color: #000000;
+        color: #006879;
+        border-color: #006879;
+    }
+
+    .group-button:hover:active {
+        background-image: none;
+        background-color: #000000;
+        color: #006879;
+        border-color: #006879;
+    }
+
+    .group-button:active:focus {
+        background-image: none;
+        background-color: #000000;
+        color: #006879;
+        border-color: #006879;
+    }
+
+IMGUIContainer {
+    flex: 1 ;
+}
+
+.editor-container{
+    margin: 8px;
+    padding: 4px;
+    border-width: 2px;
+    border-color: rgb(78, 78, 78);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.editor-container .object-name{
+    margin-bottom: 6px;
+    justify-content: center;
+}
+
+    .editor-container .object-name #unity-text-input {
+        font-size: 14px;
+        padding: 2px;
+        max-width: 240px;
+        -unity-text-align: middlecenter;
+    }

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ui="UnityEngine.UIElements"
+    xmlns:eui="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd"
+>
+  <ui:VisualElement name="banner">
+    <ui:Label text="Global Values"/>
+    <eui:ObjectField allow-scene-objects="true" label="Instance" name="instance"/>    
+  </ui:VisualElement>
+  <ui:ScrollView name="container">
+    
+  </ui:ScrollView>
+</ui:UXML>

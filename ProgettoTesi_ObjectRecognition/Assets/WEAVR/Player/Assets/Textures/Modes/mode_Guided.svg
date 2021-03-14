@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>mode_Guided</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="99.3480785%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#BE3620" offset="0%"></stop>
+            <stop stop-color="#FFAA52" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="77.8819771%" y1="68.9652356%" x2="4.64852608%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#9943E0" offset="0%"></stop>
+            <stop stop-color="#6020BE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(15.000000, 1.000000)">
+            <rect id="Rectangle" fill="#DDE8ED" x="0" y="24" width="90" height="81" rx="2.05999994"></rect>
+            <path d="M50.5795902,84 L76,84 L76,53 L33,53" id="Path-17" stroke="#464F72" stroke-width="4.11999989" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10.29999971389771,10.29999971389771"></path>
+            <g id="Group-8" transform="translate(6.090000, 0.000000)">
+                <path d="M14.4199996,0 C22.3801806,0.00893165302 28.8309174,6.3530272 28.8399992,14.1816134 C28.8399992,23.3125465 18.4843795,37.8851673 14.4199996,43.2599988 C10.3535597,37.8851673 0,23.3206503 0,14.1816134 C0.00908178985,6.3530272 6.45981856,0.00893165302 14.4199996,0 Z M14.4200003,9.45776936 C11.0068807,9.45776936 8.24000051,12.2246495 8.24000051,15.6377692 C8.24000051,19.0508888 11.0068807,21.817769 14.4200003,21.817769 C17.83312,21.817769 20.6000002,19.0508888 20.6000002,15.6377692 C20.6000002,12.2246495 17.83312,9.45776936 14.4200003,9.45776936 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+                <ellipse id="Oval" fill="#C54326" cx="14.4199996" cy="49.4399986" rx="6.17999983" ry="3.08999991"></ellipse>
+            </g>
+            <path d="M17.9822943,116.512086 L3.40300646,78.2345636 C3.20052919,77.702965 3.4673347,77.107879 3.99893324,76.9054017 C4.25630936,76.8073713 4.54222511,76.8165001 4.79282353,76.9307492 L41.1298418,93.4969794 C41.6474413,93.7329556 41.8757421,94.3438495 41.6397659,94.861449 C41.5132723,95.1389049 41.2703418,95.3460514 40.9763839,95.427114 L25.8075683,99.6101034 L25.8075683,99.6101034 L19.9172983,116.484912 C19.7298286,117.021987 19.1424694,117.305398 18.6053948,117.117928 C18.3184941,117.017783 18.0904559,116.796061 17.9822943,116.512086 Z" id="Path-16" fill="url(#linearGradient-2)" transform="translate(23.109999, 97.519998) rotate(-270.000000) translate(-23.109999, -97.519998) "></path>
+        </g>
+    </g>
+</svg>

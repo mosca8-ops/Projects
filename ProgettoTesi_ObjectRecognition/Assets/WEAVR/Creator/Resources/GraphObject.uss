@@ -1,0 +1,53 @@
+#divider {
+    background-color: rgba(35,35,35,0.8);
+    border-color: rgba(35,35,35,0.8);
+}
+
+#collapse-button > #icon {
+    visibility: visible;
+}
+
+
+#divider.horizontal {
+    height: 0px;
+    border-bottom-width: 1px;
+}
+
+    #divider.horizontal.hidden {
+        height: 0px;
+        border-bottom-width: 0px;
+    }
+
+#divider.vertical {
+    width: 0px;
+    border-right-width: 1px;
+}
+
+    #divider.vertical.hidden {
+        width: 0px;
+        border-right-width: 0px;
+    }
+
+.node.collapsed > #node-border > #title > #collapse-button > #icon {
+    background-image: resource("GraphView/Nodes/NodeChevronLeft.png");
+}
+
+.node.expanded > #node-border > #title > #collapse-button > #icon {
+    background-image: resource("GraphView/Nodes/NodeChevronDown.png");
+}
+
+#line {
+    background-color: #4c4c4c;
+}
+
+#settings-divider {
+    background-color: rgba(35,35,35,0.8);
+    border-color: rgba(35,35,35,0.8);
+    height: 0px;
+    border-bottom-width: 1px;
+}
+
+    #settings-divider.hidden {
+        height: 0px;
+        border-bottom-width: 0px;
+    }

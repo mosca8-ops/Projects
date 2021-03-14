@@ -1,0 +1,250 @@
+#window {
+    flex-direction: column;
+    align-items: stretch;
+    padding-bottom: 10px;
+}
+
+    #window ScrollView {
+        flex-grow: 1;
+        margin-bottom: 32px;
+    }
+
+        #window ScrollView #ContentView {
+            left: 0px;
+            right: 0px;
+        }
+
+* Label, * TextField, * .unity-text-element {
+    -unity-font: resource("fonts/Roboto-Regular");
+    font-size: 12;
+}
+
+.big-label {
+    /*align-self: center;*/
+    font-size: 16;
+    color: #969696;
+}
+
+.medium-label {
+    font-size: 14;
+    color: #969696;
+}
+
+.small-label {
+    font-size: 12;
+}
+
+#header {
+    flex-direction: row;
+    background-color: #1a1a1a;
+    margin-bottom: 10px;
+}
+
+#logo {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 110px;
+    height: 110px;
+    --unity-image: resource("images/logo_grayscale");
+}
+
+#title-container {
+    margin-left: 20px;
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+
+    #title-container .big-label {
+        align-self: flex-start;
+        font-size: 32;
+        flex-grow: 1;
+    }
+
+#name-container {
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+#error-label {
+    color: #ff0000;
+    font-size: 11;
+}
+
+/*#title-container .medium-label {
+    -unity-text-align: lower-left;
+    font-size: 12;
+    margin-bottom: -2px;
+}*/
+
+#title-container .small-label {
+    -unity-text-align: lower-left;
+    margin-bottom: -2px;
+}
+
+
+.settings-toggle {
+    padding: 4px 8px;
+    margin-right: -4px;
+    background-color: #464646;
+}
+
+    .settings-toggle .unity-label {
+        font-size: 18;
+        color: #dedede;
+    }
+
+    .settings-toggle:checked {
+        background-color: #019db7;
+    }
+
+        .settings-toggle:checked > Label {
+            color: #000000;
+        }
+
+.setting-line {
+    border-left-width: 3px;
+    flex-direction: row;
+    padding-left: 12px;
+}
+
+    .setting-line.changed {
+        border-color: #019db7;
+        background-color: rgba(1, 157, 183, 0.16);
+    }
+
+    .setting-line > Label {
+        -unity-text-align: middle-left;
+    }
+
+.setting-label {
+    min-width: 150px;
+}
+
+.setting-control {
+    flex: 1 ;
+}
+
+.settings-main-group {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.settings-group {
+    padding: 4px;
+    margin-bottom: 20px;
+    border-width: 2px;
+    border-radius: 8px;
+    background-color: #dedede;
+    border-color: #969696;
+}
+
+    .settings-group > Label {
+        font-size: 16;
+        margin-bottom: 5px;
+        /*-unity-text-align: Middle-Center;*/
+    }
+
+
+
+.horizontal {
+    flex-direction: row;
+}
+
+
+
+#cancel-button {
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.00);
+    border-width: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    font-size: 20;
+    color: rgba(255, 0, 0, 0.6);
+}
+
+    #cancel-button:hover {
+        background-image: none;
+        color: #ff0000;
+    }
+
+        #cancel-button:hover:focus {
+            background-image: none;
+            color: #ff0000;
+        }
+
+    #cancel-button:active {
+        background-image: none;
+        color: #760000;
+    }
+
+        #cancel-button:active:focus {
+            background-image: none;
+            color: #760000;
+        }
+
+#reset-button {
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.00);
+    border-width: 0px;
+    position: absolute;
+    align-self: center;
+    bottom: 0px;
+    font-size: 20;
+    color: rgba(0, 110, 128, 0.80);
+}
+
+    #reset-button:hover {
+        background-image: none;
+        color: #019db7;
+    }
+
+        #reset-button:hover:focus {
+            background-image: none;
+            color: #019db7;
+        }
+
+    #reset-button:active {
+        background-image: none;
+        color: #006879;
+    }
+
+        #reset-button:active:focus {
+            background-image: none;
+            color: #006879;
+        }
+
+#apply-button {
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.00);
+    border-width: 0px;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    font-size: 20;
+    color: #006f0c;
+}
+
+    #apply-button:hover {
+        background-image: none;
+        color: #01b714;
+    }
+
+        #apply-button:hover:focus {
+            background-image: none;
+            color: #01b714;
+        }
+
+    #apply-button:active {
+        background-image: none;
+        color: #004307;
+    }
+
+        #apply-button:active:focus {
+            background-image: none;
+            color: #004307;
+        }
+
+IMGUIContainer {
+    flex: 1 ;
+}

@@ -1,0 +1,60 @@
+ActionView.baseNodeView.node {
+    flex: 1 0;
+    align-items: stretch;
+    border-radius: 0px;
+    border-color: rgba(0,0,0,0);
+    padding: 2px 0px 1px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+    ActionView.baseNodeView.node.first {
+        padding-top: 0px;
+    }
+
+    ActionView.baseNodeView.node > #selection-border {
+        margin: 0;
+    }
+
+    ActionView.baseNodeView.node #contents > #top > #input {
+        padding-bottom: 8px;
+        flex: 1 1;
+    }
+
+GenericNodeView ActionView.node #node-border #title {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+    GenericNodeView ActionView.node #node-border #title.disabled {
+        opacity: 0.5;
+    }
+
+    GenericNodeView ActionView.node #node-border #title #title-label {
+        margin-left: 4px;
+        flex: 1 0;
+    }
+
+    GenericNodeView ActionView.node #node-border #title.disabled #title-label {
+        opacity: 0.5;
+    }
+
+ActionView.node #title Toggle {
+    margin-right: 0px;
+}
+
+ActionView.node #title #collapse-button {
+    width: 20px;
+    padding-right: 4px;
+}
+
+ActionView.node {
+    margin: 0;
+    flex-direction: row;
+}
+
+    ActionView.node > #node-border {
+        flex: 1 1;
+        margin: 0;
+    }

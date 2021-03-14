@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a35174fa15eb614aabefe1760b1fdb5, type: 3}
+  m_Name: Rubber
+  m_EditorClassIdentifier: 
+  m_material: {fileID: 13400000, guid: eb3b6ac3911aa9f489f3e66987d52926, type: 2}
+  m_sampleAudioSource: {fileID: 851202058279912047, guid: 6ca31c9b2257c194187ec390994a3f40,
+    type: 3}
+  m_defaultImpact:
+    force: 0
+    sounds:
+    - clip: {fileID: 8300000, guid: 2ec0e14254efe4040b7ae3a0da46d5a6, type: 3}
+      pitch:
+        min: 0.8
+        max: 1.2
+    - clip: {fileID: 8300000, guid: 737a6618d669e4740862cd8ddf59e793, type: 3}
+      pitch:
+        min: 0.8
+        max: 1.2
+    effects: []
+  m_impacts: []

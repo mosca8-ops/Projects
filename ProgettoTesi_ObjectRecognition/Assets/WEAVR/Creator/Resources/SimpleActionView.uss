@@ -1,0 +1,14 @@
+
+.simpleActionView #contents {
+    background-color: #ffd800;
+    flex-direction: row;
+}
+
+.simpleActionView #description {
+    color: #000000;
+}
+
+.simpleActionView #colored-box {
+    width: 2px;
+    background-color: #4cff00;
+}

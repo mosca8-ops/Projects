@@ -1,0 +1,38 @@
+﻿/*****************************  COMPONENTS  *****************/
+/*----------------------------------------------------------*/
+
+.pooled-object-label {
+    -unity-text-align: middle-center;
+}
+
+/*=======[  GUID COMPONENT  ]========*/
+
+.guid-component {
+}
+
+    .guid-component #unity-text-input {
+        -unity-text-align: middle-center;
+        border-width: 0px;
+        padding-top: 3px;
+        padding-bottom : 3px;
+    }
+
+    .guid-component.prefab-guid #unity-text-input {
+        color: #ffd800;
+        background-color: #161616;
+    }
+
+    .guid-component.invalid-guid #unity-text-input {
+        color: #ff0000;
+    }
+
+/*======[ END OF GUID COMPONENT ]===========*/
+
+/*----------------------------------------------------------*/
+/*****************************  DRAWERS  *****************/
+/*----------------------------------------------------------*/
+
+
+/*----------------------------------------------------------*/
+/*****************************  CONTROLS  *****************/
+/*----------------------------------------------------------*/

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>mode_Assessment</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="11.9973332%" y1="84.3816758%" x2="72.2062196%" y2="25.4319486%" id="linearGradient-1">
+            <stop stop-color="#8C3BD8" offset="0%"></stop>
+            <stop stop-color="#7D87A0" offset="0.0659839527%"></stop>
+            <stop stop-color="#95A6AE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-7-Copy" transform="translate(16.000000, 14.000000)">
+            <path d="M21.8726278,0.687667785 L70.4475728,0.687667785 C71.4416853,0.687667785 72.2475727,1.49355521 72.2475727,2.48766774 L72.2475727,91.1831641 C72.2475727,92.1772766 71.4416853,92.9831641 70.4475728,92.9831641 L2.30937138,92.9831641 C1.31525886,92.9831641 0.509371432,92.1772766 0.509371432,91.1831641 L0.509371432,21.1683841 C0.509371432,20.6765865 0.710598175,20.2062049 1.06628185,19.8665668 L20.6295382,1.18585046 C20.9644053,0.86608999 21.409613,0.687667785 21.8726278,0.687667785 Z" id="Path-3" fill="#DDE8ED"></path>
+            <g id="Group-10" transform="translate(9.800000, 30.199999)">
+                <circle id="Oval" stroke="#767E9C" stroke-width="2.69999993" cx="8.09999979" cy="8.09999979" r="8.09999979"></circle>
+                <polyline id="Path-5" stroke="#8C3BD8" stroke-width="2.69999993" stroke-linecap="round" stroke-linejoin="round" points="6.51600057 6.80204257 8.508693 9.89999974 18.4499995 2.24999994"></polyline>
+                <line x1="27" y1="4.44999999" x2="33.2999998" y2="4.44999999" id="Path-15-Copy-2" stroke="#767E9C" stroke-width="3.5999999" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="27" y1="10.45" x2="49.5290117" y2="10.45" id="Path-15-Copy-3" stroke="#767E9C" stroke-width="3.5999999" stroke-linecap="round" stroke-linejoin="round"></line>
+            </g>
+            <g id="Group-9" transform="translate(9.800000, 56.599999)">
+                <circle id="Oval-Copy" stroke="#767E9C" stroke-width="2.69999993" cx="8.09999979" cy="8.09999979" r="8.09999979"></circle>
+                <polyline id="Path-5-Copy" stroke="#8C3BD8" stroke-width="2.69999993" stroke-linecap="round" stroke-linejoin="round" points="6.51600057 6.35204258 8.508693 9.44999975 18.4499995 1.79999995"></polyline>
+                <line x1="27" y1="4.44999999" x2="49.5290117" y2="4.44999999" id="Path-15-Copy-4" stroke="#767E9C" stroke-width="3.5999999" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="27" y1="11.45" x2="49.5290117" y2="11.45" id="Path-15-Copy-5" stroke="#767E9C" stroke-width="3.5999999" stroke-linecap="round" stroke-linejoin="round"></line>
+            </g>
+            <path d="M0.509371432,20.3983538 L20.2778748,18.7432641 C21.2436105,18.6624093 21.9719799,17.8314732 21.9256386,16.8634673 L21.1512567,0.687667785 L21.1512567,0.687667785 L0.509371432,20.3983538 Z" id="Path-4" fill="#FFFFFF"></path>
+            <g id="Group" transform="translate(40.892001, 7.398354)" fill="url(#linearGradient-1)">
+                <path d="M57.414048,11.7604974 L13.6091055,57.2705148 L13.6091055,57.2705148 L8.10799869,70.6016462 L21.5235725,66.1264705 L66.353501,20.2938493 C68.0913183,18.517163 68.0598087,15.6680949 66.2831223,13.9302776 C66.2466088,13.8945629 66.2094899,13.8594724 66.1717816,13.8250214 L63.6914393,11.558932 C61.8902912,9.91336763 59.1059174,10.0027731 57.414048,11.7604974 Z" id="Path-6" transform="translate(38.858552, 39.601646) rotate(-18.000000) translate(-38.858552, -39.601646) "></path>
+            </g>
+            <line x1="37" y1="12.45" x2="59.5290117" y2="12.45" id="Path-15" stroke="#767E9C" stroke-width="3.5999999" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="37" y1="19.45" x2="59.5290117" y2="19.45" id="Path-15-Copy" stroke="#767E9C" stroke-width="3.5999999" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="37" y1="80.45" x2="41.4999999" y2="80.45" id="Path-15-Copy-6" stroke="#767E9C" stroke-width="3.5999999" stroke-linecap="round" stroke-linejoin="round"></line>
+        </g>
+    </g>
+</svg>

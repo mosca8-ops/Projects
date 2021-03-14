@@ -1,0 +1,54 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="Window">
+        <Style src="/Assets/WEAVR/Essential/Editor/Resources/Styles/WelcomeWindow.uss" />
+        <ui:VisualElement class="black-overlay" />
+        <ui:VisualElement name="Logo">
+            <ui:VisualElement class="logo-image" />
+        </ui:VisualElement>
+        <ui:VisualElement name="CurrentStepContainer">
+            <ui:VisualElement name="WelcomeText">
+                <ui:Label text="Thank you for installing Pacelab WEAVR" class="gray-text big-text centered-text wrapped-text" />
+                <ui:Label text="This wizard will guide you to install the necessary modules to make your project ready to use Pacelab WEAVR" class="gray-text medium-text centered-text wrapped-text upper-space" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ExtensionsPanel">
+                <ui:Label text="Please select the extensions you would like to use in your project." class="upper-space centered-text big-text gray-text wrapped-text" />
+                <ui:VisualElement class="horizontal-layout centered-layout upper-space">
+                    <ui:Toggle label="Virtual Reality" class="extension-toggle">
+                        <ui:VisualElement name="VR_Image" class="extension-image" />
+                        <ui:VisualElement>
+                            <ui:Label text="Enables Virtual Reality functionality with SteamVR" name="Description" class="extension-description" />
+                        </ui:VisualElement>
+                    </ui:Toggle>
+                    <ui:Toggle label="Augmented Reality" class="extension-toggle">
+                        <ui:VisualElement name="AR_Image" class="extension-image" />
+                        <ui:VisualElement>
+                            <ui:Label text="Enables Augmented Reality with AR Foundation Core" name="Description" class="extension-description" />
+                        </ui:VisualElement>
+                    </ui:Toggle>
+                    <ui:Toggle label="Multiplayer" class="extension-toggle">
+                        <ui:VisualElement name="Net_Image" class="extension-image" />
+                        <ui:VisualElement>
+                            <ui:Label text="Enables Multiplayer logic with Photon Networking" name="Description" class="extension-description" />
+                        </ui:VisualElement>
+                    </ui:Toggle>
+                </ui:VisualElement>
+                <ui:Label text="*These can be later changed in Manage Extensions Window." class="upper-space gray-text padded-left wrapped-text" />
+                <ui:Label text="*Selecting at least one of these extensions will trigger a subsequent compilation so please be patient." class="upper-space gray-text padded-left wrapped-text" />
+            </ui:VisualElement>
+            <ui:VisualElement name="URP_PresentMessage">
+                <ui:VisualElement name="Icon" />
+                <ui:Label text="Good news! You have Universal Render Pipeline installed. Pacelab WEAVR is designed to work with URP to provide the best performance and visuals." class="gray-text wrapped-text medium-text" />
+            </ui:VisualElement>
+            <ui:VisualElement name="URP_NotPresentMessage">
+                <ui:VisualElement class="horizontal-layout">
+                    <ui:VisualElement name="Icon" />
+                    <ui:Label text="Oops.. Looks like you don&apos;t have Universal Render Pipeline installed. Pacelab WEAVR was designed for URP but it can also work with other render pipelines, although to a limited extent." class="gray-text wrapped-text padded-left medium-text" />
+                </ui:VisualElement>
+                <ui:Button text="Install URP" name="InstallURP" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="ControlsPanel" class="centered-layout horizontal-layout" style="flex-grow: 1;">
+            <ui:Button text="Next" name="AcceptButton" class="control-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

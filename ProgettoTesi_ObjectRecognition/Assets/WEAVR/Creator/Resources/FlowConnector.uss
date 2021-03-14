@@ -1,0 +1,337 @@
+
+
+.flowPort #connector #hole #cap {
+    width: 0px;
+    height: 0px;
+}
+
+.flowPort #connector.portHighlight #hole #cap {
+    background-color: rgb(220, 220, 220);
+}
+
+.flowPort.port {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 100px;
+    height: 28px;
+    --port-color: rgb(220, 220, 220);
+    flex-direction: column-reverse;
+}
+
+    .flowPort.port.output {
+        flex-direction: column;
+    }
+
+
+    .flowPort.port #connector {
+        width: 12px;
+        height: 12px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .flowPort.port.mandatory #connector {
+        width: 14px;
+        height: 14px;
+    }
+
+    .flowPort.port #type {
+        position: absolute;
+        width: 42px;
+        top: 1px;
+        left: 58px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+
+    .flowPort.port #connector #cap {
+        width: 6px;
+        height: 6px;
+        border-radius: 0 4px 4px 0;
+    }
+
+.flowPort.connected #connector {
+}
+
+.flowEdge.edge {
+    --edge-width: 4;
+    border-color: rgba(146,146,146,255);
+}
+
+.flowEdge.mandatory {
+    --edge-width: 6;
+}
+
+.flowEdge.edge.selected {
+    border-color: rgba(240,240,240,255);
+}
+
+.flowEdge.edge:hover {
+    --edge-width: 7;
+}
+
+.flowEdge.mandatory:hover {
+    --edge-width: 8;
+}
+
+.flowPort.port.output {
+    --port-color: rgb(160, 160, 160);
+}
+
+    .flowPort.port.output.mandatory {
+        --port-color: rgb(220, 220, 220);
+    }
+
+    .flowPort.port.output.with-actions {
+        --port-color: #00c0fe;
+    }
+
+    .flowPort.port.output.mandatory.with-actions {
+        --port-color: #00c0fe;
+    }
+
+/*STATE PART*/
+flowEdge.edge.Standby {
+}
+
+flowEdge.edge.Ready {
+}
+
+flowEdge.edge.Running {
+    /*output-edge-color: #4cff00;*/
+    --input-edge-color: #e5e900;
+}
+
+flowEdge.edge.Finished {
+    /*output-edge-color: #4cff00;*/
+    --input-edge-color: #16b200;
+}
+
+flowEdge.edge.Faulted {
+    /*output-edge-color: #4cff00;*/
+    --input-edge-color: #f10000;
+}
+
+flowEdge.edge.searchPositive {
+    /*output-edge-color: #4cff00;*/
+    --input-edge-color: #d79a01;
+}
+
+flowEdge.edge.ForceStopped {
+}
+
+.flowPort.port.output.Standby {
+}
+
+.flowPort.port.output.Ready {
+}
+
+.flowPort.port.output.Running {
+    --port-color: #e5e900;
+}
+
+.flowPort.port.output.Finished {
+    --port-color: #16b200;
+}
+
+.flowPort.port.output.Faulted {
+    --port-color: #f10000;
+}
+
+.flowPort.port.output.ForceStopped {
+}
+
+/*.flowPort.port.input.already-executed {
+    port-color: #16b200;
+}*/
+
+.flowPort #connector {
+    border-width: 2px;
+    border-radius: 2px 8px 8px 2px;
+}
+
+/*.flowPort #cap {
+    width: 6px;
+    height: 6px;
+    border-radius: 0px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 4;
+    border-bottom-right-radius: 4;
+    border-bottom-left-radius: 0;
+}*/
+
+/*SIMPLE ACTION STYLES*/
+
+.flowEdge .edge-control {
+    justify-content: center;
+    align-items: center;
+}
+
+/*--------------------------- UNREACHEABLE PART ----------------------------------*/
+
+.unreacheable .flowPort.port {
+    --port-color: #888888;
+}
+
+    .unreacheable .flowPort.port.output {
+        --port-color: #888888;
+    }
+
+/*--------------------------- FAST FORWARD PART ----------------------------------*/
+
+.edge.fast-forward-path {
+    --edge-width: 7;
+    --input-edge-color: #d79a01;
+    --output-edge-color: #d79a01;
+}
+
+    .edge.fast-forward-path.high-priority {
+        --edge-width: 7;
+        --input-edge-color: #d75801;
+        --output-edge-color: #d75801;
+    }
+
+.edge.high-priority {
+    --edge-width: 7;
+    --input-edge-color: #daa078;
+    --output-edge-color: #daa078;
+}
+
+/*-------------------------- ACTION CONTAINER PART ------------------------------*/
+.actions-container {
+    background-image: resource("images/flyout_center_9slice");
+    position: absolute;
+    width: 280px;
+    margin-top: 4px;
+    padding: 26px 16px 16px;
+    -unity-slice-top: 40;
+    -unity-slice-bottom: 25;
+    -unity-slice-left: 10;
+    -unity-slice-right: 10;
+}
+
+    .actions-container .simpleActionView {
+        --refresh-color: #009bfd;
+        --progress-update-ms: 33;
+    }
+
+        .actions-container .simpleActionView #contents {
+            background-color: rgba(10, 10, 10, 0.85);
+            flex-direction: row;
+            margin-top: 2px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            border-width: 1px;
+            /*border-top-width: 2px;*/
+            border-color: #003041;
+            border-radius: 4px;
+            margin: 1px 0px;
+        }
+
+        .actions-container .simpleActionView.first {
+            margin-top: -2px;
+        }
+
+        .actions-container .simpleActionView #description {
+            flex-grow: 1;
+            white-space: normal;
+            padding: 2px;
+            margin-right: 22px;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-content: stretch;
+            align-self: stretch;
+            -unity-text-align: middle-left;
+        }
+
+        .actions-container .simpleActionView #colored-box {
+            width: 2px;
+            background-color: #4cff00;
+        }
+
+        .actions-container .simpleActionView #icon {
+            width: 18px;
+            height: 18px;
+            align-self: center;
+            padding: 2px;
+        }
+
+        .actions-container .simpleActionView #progress-bar {
+            left: 0px;
+            top: 0px;
+            bottom: 0px;
+            margin-right: 2px;
+            position: absolute;
+            background-color: rgba(0, 158, 48, 0.50);
+        }
+
+        .actions-container .simpleActionView.with-warning #contents {
+            border-width: 1px;
+            border-color: #f4af00;
+        }
+
+        .actions-container .simpleActionView.with-error #contents {
+            border-width: 1px;
+            border-color: #ff6464;
+        }
+
+        .actions-container .simpleActionView .icon-badge {
+            position: absolute;
+            right: -3px;
+            top: 2px;
+            bottom: 0px;
+        }
+
+            .actions-container .simpleActionView .icon-badge #tip {
+                display: none;
+            }
+
+            .actions-container .simpleActionView .icon-badge #icon {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                bottom: 0px;
+            }
+
+        /*WITH STATES*/
+
+        .actions-container .simpleActionView.Ready {
+        }
+
+        .actions-container .simpleActionView.Started {
+        }
+
+        .actions-container .simpleActionView.Running {
+            background-color: #0066a7;
+        }
+
+        .actions-container .simpleActionView.Finished {
+            background-color: #197c00;
+        }
+
+        .actions-container .simpleActionView.Faulted {
+            background-color: #f10000;
+        }
+
+            .actions-container .simpleActionView.Faulted #progress-bar {
+                background-color: #f10000;
+            }
+
+        .actions-container .simpleActionView.Paused {
+        }
+
+        .actions-container .simpleActionView.ForceStopped {
+        }
+
+        .actions-container .simpleActionView.Skipped {
+        }
+
+            .actions-container .simpleActionView.Skipped #description {
+                color: rgba(232, 232, 232, 0.50);
+            }
+
+        .actions-container .simpleActionView.Breakpoint {
+        }

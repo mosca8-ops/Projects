@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4695309592741087107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4610138430686914229}
+  - component: {fileID: 3450168321564312239}
+  - component: {fileID: 7905835231328839052}
+  - component: {fileID: 3203456047795546518}
+  m_Layer: 5
+  m_Name: WeavrNetwork_Standalone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4610138430686914229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4695309592741087107}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3450168321564312239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4695309592741087107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5595144aa4ba5dc499883bfb976f3a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_autoConnect: 1
+  m_reconnectOnDisconnect: 1
+  networkUpdateRate: 10
+  closeRoomOnExit: 1
+  m_preferLocalUser: 0
+  m_autoJoinRooms: 0
+  m_events:
+    onPhotonConnected:
+      m_PersistentCalls:
+        m_Calls: []
+    onPhotonDisconnected:
+      m_PersistentCalls:
+        m_Calls: []
+    onRoomCreated:
+      m_PersistentCalls:
+        m_Calls: []
+    onRoomAvailable:
+      m_PersistentCalls:
+        m_Calls: []
+    onNoRoomAvailable:
+      m_PersistentCalls:
+        m_Calls: []
+    onRoomListUpdated:
+      m_PersistentCalls:
+        m_Calls: []
+    onRoomJoined:
+      m_PersistentCalls:
+        m_Calls: []
+    onRoomLeft:
+      m_PersistentCalls:
+        m_Calls: []
+    onPlayerEnteredRoom:
+      m_PersistentCalls:
+        m_Calls: []
+    onPlayerLeftRoom:
+      m_PersistentCalls:
+        m_Calls: []
+--- !u!114 &7905835231328839052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4695309592741087107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81d9debcbaf99472bb70ffc2f99cb23f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  KeepAliveInBackground: 60000
+  ApplyDontDestroyOnLoad: 1
+  logLevel: 1
+  enableSupportLogger: 0
+  updateInterval: 50
+  runInBackground: 1
+  statsResetInterval: 1000
+  speakerPrefab: {fileID: 0}
+  primaryRecorder: {fileID: 0}
+  Settings:
+    AppIdRealtime: 
+    AppIdChat: 
+    AppIdVoice: 
+    AppVersion: 
+    UseNameServer: 1
+    FixedRegion: 
+    Server: 
+    Port: 0
+    Protocol: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  ShowSettings: 0
+  MinimalTimeScaleToDispatchInFixedUpdate: -1
+  AutoConnectAndJoin: 1
+  AutoLeaveAndDisconnect: 1
+  AutoCreateSpeakerIfNotFound: 1
+  usePunAppSettings: 1
+--- !u!114 &3203456047795546518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4695309592741087107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b136dedd0b437474bad04c3f67b8104c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rpcsCount: 3
+  m_rpcBehaviours:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

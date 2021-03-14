@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ca4995535594947a3214157197d93c, type: 3}
+  m_Name: Guided
+  m_EditorClassIdentifier: 
+  m_modeShortName:
+    m_key: 
+    m_defaultValue: G
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - en-US
+      - it
+      - de
+      values:
+      - G
+      - 
+      - 
+  m_modeName:
+    m_key: 
+    m_defaultValue: Guided
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - en-US
+      - it
+      - de
+      values:
+      - Guided
+      - 
+      - 
+  m_icon:
+    m_key: 
+    m_defaultValue: {fileID: 0}
+    m_hasInitializerValue: 0
+    m_values:
+      keys:
+      - en-US
+      - it
+      - de
+      values:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  m_usesStepPrevNext: 0
+  m_usesWorldNavigation: 1
+  m_usesStepsPanel: 1
