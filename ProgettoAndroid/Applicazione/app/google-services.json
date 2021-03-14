@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "788142653930",
+    "firebase_url": "https://turista-felice-c9f64.firebaseio.com",
+    "project_id": "turista-felice-c9f64",
+    "storage_bucket": "turista-felice-c9f64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788142653930:android:4557941628f3b11dfab293",
+        "android_client_info": {
+          "package_name": "it.unimib.firsttry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788142653930-8c5b1m2b1celjcgptobvt0lo4g59aj87.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.unimib.firsttry",
+            "certificate_hash": "d8601e5a0b0b38cc321aacd2c933425b547951dd"
+          }
+        },
+        {
+          "client_id": "788142653930-nrkakcr9u7kae4j8v11o4n2ir2h4bvbl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBnpmPWEsBUfL63uTEXK85NH2U7LBpIM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788142653930-nrkakcr9u7kae4j8v11o4n2ir2h4bvbl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788142653930:android:fd08a9c2c0576d54fab293",
+        "android_client_info": {
+          "package_name": "it.unimib.turistafelice"
+        }
+      },
+      "oauth_client": [
+        {
+
+          "client_id": "788142653930-pcc6rb1ovpb8j7k3npa1ejnr4bpuqa9c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.unimib.turistafelice",
+            "certificate_hash": "d8601e5a0b0b38cc321aacd2c933425b547951dd"
+          }
+        },
+        {
+          "client_id": "788142653930-nrkakcr9u7kae4j8v11o4n2ir2h4bvbl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBnpmPWEsBUfL63uTEXK85NH2U7LBpIM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788142653930-nrkakcr9u7kae4j8v11o4n2ir2h4bvbl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
