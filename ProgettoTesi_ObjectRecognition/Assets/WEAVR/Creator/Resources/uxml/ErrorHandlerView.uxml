@@ -1,8 +1,0 @@
-<UXML xmlns:ui="UnityEngine.UIElements" xmlns:wvr="TXT.WEAVR.Procedure">
-  <ui:Label name="error-title" pickingMode="Ignore"/>
-  <ui:Label name="error-subtitle" pickingMode="Ignore"/>
-  <ui:Button name="error-more" class="clickable"/>
-  <ui:ScrollView name="details-container" >
-    <ui:TextField name="error-details" pickingMode="Ignore"/>
-  </ui:ScrollView>
-</UXML>

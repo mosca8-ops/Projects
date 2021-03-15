@@ -1,6 +1,0 @@
-<UXML xmlns:ui="UnityEngine.UIElements" xmlns:wvr="TXT.WEAVR.Procedure">
-  <ui:Label name="title-label" pickingMode="Ignore"/>
-  <ui:VisualElement name="message-container" pickingMode="Ignore">
-    
-  </ui:VisualElement>
-</UXML>

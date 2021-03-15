@@ -1,7 +1,0 @@
-<UXML xmlns:ui="UnityEngine.UIElements" xmlns:wvr="TXT.WEAVR.Procedure">
-  <ui:VisualElement name="contents" pickingMode="Ignore">
-    <ui:Label name="no-conditions" text="No Conditions" pickingMode="Ignore" />
-    <ui:VisualElement name="conditions" pickingMode="Ignore" />
-  </ui:VisualElement>
-  <!--<ui:Button name="add-condition" text="New Condition"/>-->
-</UXML>

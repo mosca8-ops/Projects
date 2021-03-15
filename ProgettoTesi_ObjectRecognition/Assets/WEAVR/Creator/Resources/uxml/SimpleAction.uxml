@@ -1,9 +1,0 @@
-<UXML xmlns:ui="UnityEngine.UIElements" xmlns:wvr="TXT.WEAVR.Procedure">
-  <ui:VisualElement name="contents" pickingMode="Ignore">
-    <ui:VisualElement name="colored-box" pickingMode="Ignore"/>
-    <ui:VisualElement name="progress-bar" pickingMode="Ignore"/>
-    <ui:Image name="icon" pickingMode="Ignore"/>
-    <ui:Label name="description" pickingMode="Ignore"/>
-    <ui:Image name="state-icon" pickingMode="Ignore"/>
-  </ui:VisualElement>
-</UXML>
