@@ -1,1 +1,0 @@
-In this directory there should be the WEAVR package which I removed for privacy
